@@ -1,0 +1,242 @@
+body {
+  display: none; }
+
+.outer-container {
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.navigation {
+  padding: 28px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+  float: left;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+  max-width: 1600px; }
+  .navigation form {
+    display: block;
+    float: left; }
+    @media (max-width: 768px) {
+      .navigation form {
+        width: 100%; } }
+  .navigation input[type='email'] {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0px;
+    border-radius: 5px;
+    height: 50px;
+    width: 320px;
+    padding-left: 20px;
+    outline: none;
+    transition: all 0.5s ease; }
+    .navigation input[type='email']:focus {
+      background: white; }
+    @media (max-width: 768px) {
+      .navigation input[type='email'] {
+        width: 100%;
+        margin-bottom: 20px; } }
+  .navigation button {
+    background: none;
+    vertical-align: middle;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    margin-left: 4px; }
+    .navigation button:hover #bg {
+      fill: rgba(0, 0, 0, 0.8);
+      transition: all 0.5s ease; }
+    .navigation button:hover #Arrow-Right {
+      fill: white; }
+    @media (max-width: 768px) {
+      .navigation button {
+        position: absolute;
+        z-index: 9999px;
+        top: 28px;
+        right: 28px; } }
+  .navigation .social {
+    float: right; }
+    @media (max-width: 768px) {
+      .navigation .social {
+        float: none;
+        width: 140px;
+        float: none;
+        margin: 0 auto; } }
+    .navigation .social p {
+      float: left;
+      margin: 0px;
+      line-height: 42px;
+      margin-right: 24px; }
+      @media (max-width: 768px) {
+        .navigation .social p {
+          display: none; } }
+    .navigation .social .icons {
+      float: left; }
+      .navigation .social .icons .facebook, .navigation .social .icons .twitter, .navigation .social .icons .email {
+        float: left;
+        margin-left: 6px; }
+      .navigation .social .icons .facebook:hover svg #bg {
+        transition: all 0.5s ease;
+        fill: rgba(0, 0, 0, 0.8); }
+      .navigation .social .icons .twitter:hover svg #bg {
+        transition: all 0.5s ease;
+        fill: rgba(0, 0, 0, 0.8); }
+      .navigation .social .icons .email:hover svg #bg {
+        transition: all 0.5s ease;
+        fill: rgba(0, 0, 0, 0.8); }
+
+.hero {
+  height: 790px;
+  background: url("https://unsplash.it/g/1910/1080/?blur");
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  float: left;
+  width: 100%; }
+  .hero .logo {
+    top: 180px;
+    left: 100px;
+    height: 0px;
+    position: relative; }
+    @media (max-width: 768px) {
+      .hero .logo {
+        width: 135px;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: 220px; } }
+  .hero .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto; }
+    .hero .content h1 {
+      margin: 0px;
+      padding: 0px;
+      text-align: center; }
+    .hero .content h2 {
+      margin: 0px;
+      padding: 0px;
+      text-align: center; }
+
+.product-group {
+  display: block;
+  float: left;
+  width: 100%;
+  background: url("https://unsplash.it/g/2008/1080/?blur");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 40px;
+  height: 640px;
+  border-top: 10px solid white; }
+  .product-group h3 {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px; }
+
+.locate {
+  display: block;
+  float: left;
+  width: 100%; }
+  .locate .header {
+    padding: 50px 80px 50px 80px; }
+    .locate .header h3, .locate .header p {
+      margin: 0px;
+      padding: 0px; }
+  .locate .product {
+    display: block;
+    float: left;
+    width: 100%;
+    background: url("https://unsplash.it/g/2006/1080/?blur");
+    background-position: center center;
+    background-size: cover;
+    height: 640px; }
+  .locate .features {
+    padding: 50px 80px 0px 80px;
+    display: block;
+    width: 100%;
+    float: left; }
+    @media (max-width: 992px) {
+      .locate .features .col-md-4 {
+        margin-bottom: 30px; } }
+
+.secure {
+  display: block;
+  float: left;
+  width: 100%; }
+  .secure .header {
+    padding: 50px 80px 50px 80px; }
+    .secure .header h3, .secure .header p {
+      margin: 0px;
+      padding: 0px; }
+  .secure .product {
+    display: block;
+    float: left;
+    width: 100%;
+    background: url("https://unsplash.it/g/2010/1080/?blur");
+    background-position: center center;
+    background-size: cover;
+    height: 640px; }
+  .secure .features {
+    padding: 50px 80px 0px 80px;
+    display: block;
+    width: 100%;
+    float: left; }
+    @media (max-width: 992px) {
+      .secure .features .col-md-4 {
+        margin-bottom: 30px; } }
+
+.monitor {
+  display: block;
+  float: left;
+  width: 100%; }
+  .monitor .header {
+    padding: 50px 80px 50px 80px; }
+    .monitor .header h3, .monitor .header p {
+      margin: 0px;
+      padding: 0px; }
+  .monitor .product {
+    display: block;
+    float: left;
+    width: 100%;
+    background: url("https://unsplash.it/g/2011/1080/?blur");
+    background-position: center center;
+    background-size: cover;
+    height: 640px; }
+  .monitor .features {
+    padding: 50px 80px 50px 80px;
+    display: block;
+    width: 100%;
+    float: left; }
+    @media (max-width: 992px) {
+      .monitor .features .col-md-4 {
+        margin-bottom: 30px; } }
+
+.the-hub {
+  display: block;
+  float: left;
+  width: 100%;
+  background: url("https://unsplash.it/g/2008/1080/?blur");
+  background-position: center center;
+  background-size: cover;
+  height: 640px; }
+  .the-hub .header {
+    padding: 50px 80px 50px 80px; }
+    .the-hub .header h3, .the-hub .header p {
+      margin: 0px;
+      padding: 0px; }
+    .the-hub .header h3 {
+      margin-bottom: 10px; }
+  .the-hub .features {
+    padding-top: 50px;
+    display: block;
+    width: 100%;
+    float: left; }
+    .the-hub .features .row {
+      margin-bottom: 20px; }
+    @media (max-width: 992px) {
+      .the-hub .features .col-md-4 {
+        margin-bottom: 30px; } }
