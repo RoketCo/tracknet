@@ -199,7 +199,8 @@ html, body {
     font-weight: 400; }
     @media (max-width: 992px) {
       .locate .header h3 {
-        padding-bottom: 0px; } }
+        padding-bottom: 0px;
+        padding: 50px 30px 0px 30px; } }
   .locate .header p {
     font-size: 22px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
@@ -211,7 +212,8 @@ html, body {
     @media (max-width: 992px) {
       .locate .header p {
         max-width: 100%;
-        padding-top: 20px; } }
+        padding-top: 20px;
+        padding: 10px 30px 50px 30px; } }
   .locate .product {
     display: block;
     float: left;
@@ -225,6 +227,9 @@ html, body {
     display: block;
     width: 100%;
     float: left; }
+    @media (max-width: 992px) {
+      .locate .features {
+        padding: 50px 30px 0px 30px; } }
     .locate .features .col-md-4 h4 {
       font-size: 24px;
       line-height: 29px;
@@ -252,7 +257,8 @@ html, body {
     font-weight: 400; }
     @media (max-width: 992px) {
       .secure .header h3 {
-        padding-bottom: 0px; } }
+        padding-bottom: 0px;
+        padding: 10px 30px 0px 30px; } }
   .secure .header p {
     font-size: 22px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
@@ -264,7 +270,8 @@ html, body {
     @media (max-width: 992px) {
       .secure .header p {
         max-width: 100%;
-        padding-top: 20px; } }
+        padding-top: 20px;
+        padding: 10px 30px 50px 30px; } }
   .secure .product {
     display: block;
     float: left;
@@ -278,6 +285,9 @@ html, body {
     display: block;
     width: 100%;
     float: left; }
+    @media (max-width: 992px) {
+      .secure .features {
+        padding: 50px 30px 0px 30px; } }
     .secure .features .col-md-4 h4 {
       font-size: 24px;
       line-height: 29px;
@@ -305,7 +315,8 @@ html, body {
     font-weight: 400; }
     @media (max-width: 992px) {
       .monitor .header h3 {
-        padding-bottom: 0px; } }
+        padding-bottom: 0px;
+        padding: 10px 30px 0px 30px; } }
   .monitor .header p {
     font-size: 22px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
@@ -317,7 +328,8 @@ html, body {
     @media (max-width: 992px) {
       .monitor .header p {
         max-width: 100%;
-        padding-top: 20px; } }
+        padding-top: 20px;
+        padding: 10px 30px 50px 30px; } }
   .monitor .product {
     display: block;
     float: left;
@@ -333,7 +345,7 @@ html, body {
     float: left; }
     @media (max-width: 992px) {
       .monitor .features {
-        padding: 50px 80px 0px 80px; } }
+        padding: 50px 30px 0px 30px; } }
     .monitor .features .col-md-4 h4 {
       font-size: 24px;
       line-height: 29px;
@@ -362,6 +374,9 @@ html, body {
       height: auto; } }
   .the-hub .header {
     padding: 50px 80px 50px 80px; }
+    @media (max-width: 992px) {
+      .the-hub .header {
+        padding: 10px 30px 50px 30px; } }
     .the-hub .header h3 {
       font-size: 44px;
       font-family: 'Henderson', Georgia, sans-serif;
@@ -384,8 +399,16 @@ html, body {
     padding-bottom: 50px; }
     .the-hub .features .feature-rows {
       margin-top: 60px; }
+      .the-hub .features .feature-rows .col-md-1, .the-hub .features .feature-rows .col-md-11 {
+        padding: 0px; }
+      @media (max-width: 992px) {
+        .the-hub .features .feature-rows {
+          margin-top: 10px; } }
     .the-hub .features .row {
       margin-bottom: 20px; }
+      @media (max-width: 992px) {
+        .the-hub .features .row {
+          margin-bottom: 0px; } }
     .the-hub .features .col-md-6 h3 {
       font-size: 22px;
       line-height: 28px;
@@ -457,9 +480,12 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  padding: 60px 63px 0px 30px;
+  padding: 60px 6px 0px 60px;
   background-color: white;
   text-align: center; }
+  @media (max-width: 992px) {
+    .coverage {
+      padding: 60px 30px 0px 30px; } }
   .coverage h3 {
     font-size: 44px;
     line-height: 55px;
@@ -512,9 +538,12 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  padding: 60px 63px 20px 30px;
+  padding: 60px 60px 20px 60px;
   background-color: white;
   text-align: center; }
+  @media (max-width: 992px) {
+    .footer {
+      padding: 60px 30px 0px 30px; } }
   .footer p {
     font-size: 18px;
     line-height: 24px;
