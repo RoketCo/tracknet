@@ -2,6 +2,11 @@
   max-width: 1600px;
   margin: 0 auto; }
 
+.inner-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 15px solid white; }
+
 html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -221,7 +226,8 @@ html, body {
     background: url("../img/1.jpg");
     background-position: center center;
     background-size: cover;
-    height: 640px; }
+    height: 640px;
+    border-radius: 10px; }
   .locate .features {
     padding: 50px 80px 0px 80px;
     display: block;
@@ -279,7 +285,8 @@ html, body {
     background: url("../img/2.jpg");
     background-position: center center;
     background-size: cover;
-    height: 640px; }
+    height: 640px;
+    border-radius: 10px; }
   .secure .features {
     padding: 50px 80px 0px 80px;
     display: block;
@@ -337,7 +344,8 @@ html, body {
     background: url("../img/3.jpg");
     background-position: center center;
     background-size: cover;
-    height: 640px; }
+    height: 640px;
+    border-radius: 10px; }
   .monitor .features {
     padding: 50px 80px 50px 80px;
     display: block;
