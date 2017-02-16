@@ -232,7 +232,7 @@ html, body {
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
     font-weight: 400; }
-    @media (max-width: 992px) {
+    @media (max-width: 1160px) {
       .locate .header h3 {
         padding-bottom: 0px;
         padding: 50px 30px 0px 30px; } }
@@ -244,11 +244,14 @@ html, body {
     max-width: 80%;
     margin: 0px;
     padding: 50px 80px 50px 80px; }
-    @media (max-width: 992px) {
+    @media (max-width: 1160px) {
       .locate .header p {
         max-width: 100%;
         padding-top: 20px;
         padding: 10px 30px 50px 30px; } }
+  @media (max-width: 1160px) {
+    .locate .header .col-md-10 {
+      width: 100%; } }
   .locate .product {
     display: block;
     float: left;
@@ -306,7 +309,7 @@ html, body {
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
     font-weight: 400; }
-    @media (max-width: 992px) {
+    @media (max-width: 1160px) {
       .secure .header h3 {
         padding-bottom: 0px;
         padding: 10px 30px 0px 30px; } }
@@ -318,11 +321,14 @@ html, body {
     max-width: 80%;
     margin: 0px;
     padding: 50px 80px 50px 80px; }
-    @media (max-width: 992px) {
+    @media (max-width: 1160px) {
       .secure .header p {
         max-width: 100%;
         padding-top: 20px;
         padding: 10px 30px 50px 30px; } }
+  @media (max-width: 1160px) {
+    .secure .header .col-md-10 {
+      width: 100%; } }
   .secure .product {
     display: block;
     float: left;
@@ -380,7 +386,7 @@ html, body {
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
     font-weight: 400; }
-    @media (max-width: 992px) {
+    @media (max-width: 1160px) {
       .monitor .header h3 {
         padding-bottom: 0px;
         padding: 10px 30px 0px 30px; } }
@@ -392,11 +398,14 @@ html, body {
     max-width: 80%;
     margin: 0px;
     padding: 50px 80px 50px 80px; }
-    @media (max-width: 992px) {
+    @media (max-width: 1160px) {
       .monitor .header p {
         max-width: 100%;
         padding-top: 20px;
         padding: 10px 30px 50px 30px; } }
+  @media (max-width: 1160px) {
+    .monitor .header .col-md-10 {
+      width: 100%; } }
   .monitor .product {
     display: block;
     float: left;
