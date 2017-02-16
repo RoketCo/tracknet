@@ -1,8 +1,8 @@
-body {
-  display: none;
-}
+// body {
+//   display: none;
+// }
 
-// 1. Vars and Globals
+// 1. Vars, Globals, Fonts
 // 2. Navigation
 // 3. Hero
 // 4. Product Group
@@ -10,35 +10,52 @@ body {
 // 6. Secure
 // 7. Monitor
 // 8. The Hub
+// 9. Integrates
+// 10. Coverage
+// 11. iFrame
+// 12. Footer
 
 // 1. Vars
 $small: 768px;
 $medium: 992px;
+
+$brand-primary: #00A2BA;
+$brand-primary-hover: #02879a;
+$darkgray: #585858;
+$gray: #8B8B8B;
+$lightgray: #F4F4F4;
 
 .outer-container {
   max-width: 1600px;
   margin: 0 auto;
 }
 
+html, body {
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 // 2. Navigation
 .navigation {
-  padding: 28px;
+  padding: 16px;
   display: block;
   background-color: rgba(255,255,255,.4);
   float: left;
   width: 100%;
-  position: absolute;
-  z-index: 9999;
   max-width: 1600px;
   form {
     display: block;
     float: left;
+    padding-left: 70px;
+    @media (max-width: $medium) {
+      padding-left: 0px;
+    }
     @media (max-width: $small) {
       width: 100%;
     }
   }
   input[type='email'] {
-    background: rgba(255,255,255,.5);
+    background: #EAEAEA;
     border: 0px;
     border-radius: 5px;
     height: 50px;
@@ -46,8 +63,12 @@ $medium: 992px;
     padding-left: 20px;
     outline: none;
     transition: all 0.5s ease;
+    font-size: 18px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 300;
+    color: $darkgray;
     &:focus {
-      background: rgba(255,255,255,1);
+      background: #f4f4f4;
     }
     @media (max-width: $small) {
       width: 100%;
@@ -62,9 +83,13 @@ $medium: 992px;
     margin: 0px;
     height: 50px;
     margin-left: 4px;
+    #bg {
+      fill: $brand-primary;
+      transition: all 0.5s ease;
+    }
     &:hover {
       #bg {
-        fill: rgba(0,0,0,.8);
+        fill: $brand-primary-hover;
         transition: all 0.5s ease;
       }
       #Arrow-Right {
@@ -74,12 +99,16 @@ $medium: 992px;
     @media (max-width: $small) {
       position: absolute;
       z-index: 9999px;
-      top: 28px;
-      right: 28px;
+      top: 16px;
+      right: 16px;
     }
   }
   .social {
     float: right;
+    padding-right: 70px;
+    @media (max-width: $medium) {
+      padding-right: 0px;
+    }
     @media (max-width: $small) {
       float: none;
       width: 140px;
@@ -91,6 +120,10 @@ $medium: 992px;
       margin: 0px;
       line-height: 42px;
       margin-right: 24px;
+      font-size: 18px;
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-weight: 300;
+      color: $darkgray;
       @media (max-width: $small) {
         display: none;
       }
@@ -102,31 +135,43 @@ $medium: 992px;
         margin-left: 6px;
       }
       .facebook {
+        #bg {
+          transition: all 0.5s ease;
+          fill: $brand-primary;
+        }
         &:hover {
           svg {
             #bg {
               transition: all 0.5s ease;
-              fill: rgba(0,0,0,.8);
+              fill: $brand-primary-hover;
             }
           }
         }
       }
       .twitter {
+        #bg {
+          transition: all 0.5s ease;
+          fill: $brand-primary;
+        }
         &:hover {
           svg {
             #bg {
               transition: all 0.5s ease;
-              fill: rgba(0,0,0,.8);
+              fill: $brand-primary-hover;
             }
           }
         }
       }
       .email {
+        #bg {
+          transition: all 0.5s ease;
+          fill: $brand-primary;
+        }
         &:hover {
           svg {
             #bg {
               transition: all 0.5s ease;
-              fill: rgba(0,0,0,.8);
+              fill: $brand-primary-hover;
             }
           }
         }
@@ -137,42 +182,64 @@ $medium: 992px;
 
 // 3. Hero
 .hero {
-  height: 790px;
-  background: url('https://unsplash.it/g/1910/1080/?blur');
+  height: 710px;
+  background: url('../img/7.jpg');
   background-position: center center;
   background-size: cover;
   display: block;
   float: left;
   width: 100%;
   .logo {
-    top: 180px;
+    top: 50px;
     left: 100px;
     height: 0px;
     position: relative;
-    @media (max-width: $small) {
-      width: 135px;
+    @media (max-width: $medium) {
+      width: 57px;
       margin: 0 auto;
       position: relative;
       left: 0;
-      top: 220px;
+      top: 160px;
     }
   }
-  .content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 20px;
-    max-width: 700px;
-    margin: 0 auto;
-    h1 {
-      margin: 0px;
-      padding: 0px;
-      text-align: center;
-    }
-    h2 {
-      margin: 0px;
-      padding: 0px;
-      text-align: center;
+  .content-container {
+    height: 710px;
+    .content {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 20px;
+      max-width: 468px;
+      margin: 0 auto;
+      h1 {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 75px;
+        font-family: 'Henderson', Georgia, sans-serif;
+        font-weight: 400;
+        color: white;
+        letter-spacing: -6px;
+        span {
+          font-weight: 500;
+        }
+        .tm {
+          font-size: 16px;
+          vertical-align: super;
+          margin-left: 4px;
+          font-weight: 300;
+        }
+      }
+      h2 {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 31px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 300;
+        color: white;
+      }
     }
   }
 }
@@ -182,7 +249,7 @@ $medium: 992px;
   display: block;
   float: left;
   width: 100%;
-  background: url('https://unsplash.it/g/2008/1080/?blur');
+  background: url('../img/6.jpg');
   background-position: center center;
   background-size: cover;
   padding-top: 40px;
@@ -190,9 +257,13 @@ $medium: 992px;
   border-top: 10px solid white;
   h3 {
     text-align: center;
-    max-width: 700px;
+    max-width: 740px;
     margin: 0 auto;
     padding: 30px;
+    font-size: 24px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 300;
+    line-height: 36px;
   }
 }
 
@@ -203,17 +274,35 @@ $medium: 992px;
   float: left;
   width: 100%;
   .header {
-    padding: 50px 80px 50px 80px;
-    h3, p {
+    h3 {
+      font-size: 44px;
+      padding: 50px 80px 50px 80px;
       margin: 0px;
-      padding: 0px;
+      font-family: 'Henderson', Georgia, sans-serif;
+      font-weight: 400;
+      @media (max-width: $medium) {
+        padding-bottom: 0px;
+      }
+    }
+    p {
+      font-size: 22px;
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+      max-width: 80%;
+      margin: 0px;
+      padding: 50px 80px 50px 80px;
+      @media (max-width: $medium) {
+        max-width: 100%;
+        padding-top: 20px;
+      }
     }
   }
   .product {
     display: block;
     float: left;
     width: 100%;
-    background: url('https://unsplash.it/g/2006/1080/?blur');
+    background: url('../img/1.jpg');
     background-position: center center;
     background-size: cover;
     height: 640px;
@@ -224,6 +313,19 @@ $medium: 992px;
     width: 100%;
     float: left;
     .col-md-4 {
+      h4 {
+        font-size: 24px;
+        line-height: 29px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+        color: $gray;
+      }
       @media (max-width: $medium) {
         margin-bottom: 30px;
       }
@@ -238,17 +340,35 @@ $medium: 992px;
   float: left;
   width: 100%;
   .header {
-    padding: 50px 80px 50px 80px;
-    h3, p {
+    h3 {
+      font-size: 44px;
+      padding: 50px 80px 50px 80px;
       margin: 0px;
-      padding: 0px;
+      font-family: 'Henderson', Georgia, sans-serif;
+      font-weight: 400;
+      @media (max-width: $medium) {
+        padding-bottom: 0px;
+      }
+    }
+    p {
+      font-size: 22px;
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+      max-width: 80%;
+      margin: 0px;
+      padding: 50px 80px 50px 80px;
+      @media (max-width: $medium) {
+        max-width: 100%;
+        padding-top: 20px;
+      }
     }
   }
   .product {
     display: block;
     float: left;
     width: 100%;
-    background: url('https://unsplash.it/g/2010/1080/?blur');
+    background: url('../img/2.jpg');
     background-position: center center;
     background-size: cover;
     height: 640px;
@@ -259,6 +379,19 @@ $medium: 992px;
     width: 100%;
     float: left;
     .col-md-4 {
+      h4 {
+        font-size: 24px;
+        line-height: 29px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+        color: $gray;
+      }
       @media (max-width: $medium) {
         margin-bottom: 30px;
       }
@@ -273,17 +406,35 @@ $medium: 992px;
   float: left;
   width: 100%;
   .header {
-    padding: 50px 80px 50px 80px;
-    h3, p {
+    h3 {
+      font-size: 44px;
+      padding: 50px 80px 50px 80px;
       margin: 0px;
-      padding: 0px;
+      font-family: 'Henderson', Georgia, sans-serif;
+      font-weight: 400;
+      @media (max-width: $medium) {
+        padding-bottom: 0px;
+      }
+    }
+    p {
+      font-size: 22px;
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+      max-width: 80%;
+      margin: 0px;
+      padding: 50px 80px 50px 80px;
+      @media (max-width: $medium) {
+        max-width: 100%;
+        padding-top: 20px;
+      }
     }
   }
   .product {
     display: block;
     float: left;
     width: 100%;
-    background: url('https://unsplash.it/g/2011/1080/?blur');
+    background: url('../img/3.jpg');
     background-position: center center;
     background-size: cover;
     height: 640px;
@@ -293,7 +444,23 @@ $medium: 992px;
     display: block;
     width: 100%;
     float: left;
+    @media (max-width: $medium) {
+      padding: 50px 80px 0px 80px;
+    }
     .col-md-4 {
+      h4 {
+        font-size: 24px;
+        line-height: 29px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+        color: $gray;
+      }
       @media (max-width: $medium) {
         margin-bottom: 30px;
       }
@@ -307,12 +474,26 @@ $medium: 992px;
   display: block;
   float: left;
   width: 100%;
-  background: url('https://unsplash.it/g/2008/1080/?blur');
+  background: url('../img/6.jpg');
   background-position: center center;
   background-size: cover;
-  height: 640px;
+  height: auto;
+  @media (max-width: $medium) {
+    height: auto;
+  }
   .header {
     padding: 50px 80px 50px 80px;
+    h3 {
+      font-size: 44px;
+      font-family: 'Henderson', Georgia, sans-serif;
+      font-weight: 400;
+    }
+    p {
+      font-size: 22px;
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+    }
     h3, p {
       margin: 0px;
       padding: 0px;
@@ -322,17 +503,197 @@ $medium: 992px;
     }
   }
   .features {
-    padding-top: 50px;
+    padding-top: 30px;
     display: block;
     width: 100%;
     float: left;
+    padding-bottom: 50px;
+    .feature-rows {
+      margin-top: 60px;
+    }
     .row {
       margin-bottom: 20px;
     }
-    .col-md-4 {
+    .col-md-6 {
+      h3 {
+        font-size: 22px;
+        line-height: 28px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+      }
+      h4 {
+        font-size: 26px;
+        line-height: 31px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+        margin-top: 0px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 400;
+        color: $gray;
+      }
       @media (max-width: $medium) {
         margin-bottom: 30px;
       }
     }
+  }
+}
+
+// 9. Integrates
+
+.integrates {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 40px;
+  background-color: $lightgray;
+  .container {
+    width: 675px;
+    margin: 0 auto;
+    @media (max-width: $medium) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  h3 {
+    float: left;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 400;
+    margin: 10px 30px 10px 0px;
+    @media (max-width: $medium) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .ifttt {
+    width: 185px;
+    float: left;
+    margin-right: 30px;
+    @media (max-width: $medium) {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      float: none;
+      padding: 10px;
+    }
+  }
+  .alexa {
+    width: 231px;
+    float: left;
+    @media (max-width: $medium) {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      float: none;
+      padding: 10px;
+    }
+  }
+}
+
+// 10. Coverage
+
+.coverage {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 60px 63px 0px 30px;
+  background-color: white;
+  text-align: center;
+  h3 {
+    font-size: 44px;
+    line-height: 55px;
+    font-family: 'Henderson', Georgia, sans-serif;
+    font-weight: 400;
+  }
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 400;
+    color: $gray;
+    max-width: 65%;
+    margin: 0 auto;
+    @media (max-width: $medium) {
+      max-width: 85%;
+    }
+  }
+}
+
+// 11. iFrame
+.iframe {
+  display: block;
+  float: left;
+  width: 100%;
+  .map-embed {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+  }
+
+  /* 16x9 Aspect Ratio */
+  .map-embed-16x9 {
+    padding-bottom: 56.25%;
+  }
+
+  /* 4x3 Aspect Ratioo */
+  .map-embed-4x3 {
+    padding-bottom: 75%;
+  }
+
+  .map-embed iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay {
+   background:transparent;
+   position:relative;
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+  }
+}
+
+// 12. Footer
+
+.footer {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 60px 63px 20px 30px;
+  background-color: white;
+  text-align: center;
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 400;
+    color: $gray;
+    max-width: 65%;
+    margin: 0 auto;
+    @media (max-width: $medium) {
+      max-width: 85%;
+    }
+  }
+  .copyright {
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 400;
+    color: $darkgray;
+    max-width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    padding: 80px;
   }
 }
