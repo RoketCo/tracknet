@@ -119,12 +119,21 @@ html, body {
 
 .hero {
   height: 710px;
-  background: url("../img/7.jpg");
+  background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg");
   background-position: center center;
   background-size: cover;
   display: block;
   float: left;
   width: 100%; }
+  @media (max-width: 992px) {
+    .hero {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-m.jpg"); } }
+  @media (max-width: 768px) {
+    .hero {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-s.jpg"); } }
+  @media (max-width: 480px) {
+    .hero {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-xs.jpg"); } }
   .hero .logo {
     top: 50px;
     left: 100px;
@@ -176,12 +185,21 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url("../img/6.jpg");
+  background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg");
   background-position: center center;
   background-size: cover;
   padding-top: 40px;
   height: 640px;
   border-top: 10px solid white; }
+  @media (max-width: 992px) {
+    .product-group {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-m.jpg"); } }
+  @media (max-width: 768px) {
+    .product-group {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-s.jpg"); } }
+  @media (max-width: 480px) {
+    .product-group {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-xs.jpg"); } }
   .product-group h3 {
     text-align: center;
     max-width: 740px;
@@ -223,11 +241,20 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url("../img/1.jpg");
+    background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-l.jpg");
     background-position: center center;
     background-size: cover;
     height: 640px;
     border-radius: 10px; }
+    @media (max-width: 992px) {
+      .locate .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-m.jpg"); } }
+    @media (max-width: 768px) {
+      .locate .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-s.jpg"); } }
+    @media (max-width: 480px) {
+      .locate .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-xs.jpg"); } }
   .locate .features {
     padding: 50px 80px 0px 80px;
     display: block;
@@ -282,11 +309,20 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url("../img/2.jpg");
+    background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-l.jpg");
     background-position: center center;
     background-size: cover;
     height: 640px;
     border-radius: 10px; }
+    @media (max-width: 992px) {
+      .secure .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-m.jpg"); } }
+    @media (max-width: 768px) {
+      .secure .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-s.jpg"); } }
+    @media (max-width: 480px) {
+      .secure .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-xs.jpg"); } }
   .secure .features {
     padding: 50px 80px 0px 80px;
     display: block;
@@ -341,11 +377,20 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url("../img/3.jpg");
+    background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-l.jpg");
     background-position: center center;
     background-size: cover;
     height: 640px;
     border-radius: 10px; }
+    @media (max-width: 992px) {
+      .monitor .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-m.jpg"); } }
+    @media (max-width: 768px) {
+      .monitor .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-s.jpg"); } }
+    @media (max-width: 480px) {
+      .monitor .product {
+        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-xs.jpg"); } }
   .monitor .features {
     padding: 50px 80px 50px 80px;
     display: block;
@@ -373,10 +418,19 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url("../img/6.jpg");
+  background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-l.jpg");
   background-position: center center;
   background-size: cover;
   height: auto; }
+  @media (max-width: 992px) {
+    .the-hub {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg"); } }
+  @media (max-width: 768px) {
+    .the-hub {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg"); } }
+  @media (max-width: 480px) {
+    .the-hub {
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg"); } }
   @media (max-width: 992px) {
     .the-hub {
       height: auto; } }
