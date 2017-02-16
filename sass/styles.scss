@@ -194,12 +194,18 @@ html, body {
   width: 100%;
   @media (max-width: $medium) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-m.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $small) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-s.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $xsmall) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-xs.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   .logo {
     top: 50px;
@@ -269,12 +275,18 @@ html, body {
   border-top: 10px solid white;
   @media (max-width: $medium) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-m.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $small) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-s.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $xsmall) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-xs.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   h3 {
     text-align: center;
@@ -332,12 +344,18 @@ html, body {
     border-radius: 10px;
     @media (max-width: $medium) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-m.jpg');
+      background-position: center center;
+      background-size: cover;
     }
     @media (max-width: $small) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-s.jpg');
+      background-position: center center;
+      background-size: cover;
     }
     @media (max-width: $xsmall) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-xs.jpg');
+      background-position: center center;
+      background-size: cover;
     }
   }
   .features {
@@ -413,12 +431,18 @@ html, body {
     border-radius: 10px;
     @media (max-width: $medium) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-m.jpg');
+      background-position: center center;
+      background-size: cover;
     }
     @media (max-width: $small) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-s.jpg');
+      background-position: center center;
+      background-size: cover;
     }
     @media (max-width: $xsmall) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-xs.jpg');
+      background-position: center center;
+      background-size: cover;
     }
   }
   .features {
@@ -494,12 +518,18 @@ html, body {
     border-radius: 10px;
     @media (max-width: $medium) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-m.jpg');
+      background-position: center center;
+      background-size: cover;
     }
     @media (max-width: $small) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-s.jpg');
+      background-position: center center;
+      background-size: cover;
     }
     @media (max-width: $xsmall) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-xs.jpg');
+      background-position: center center;
+      background-size: cover;
     }
   }
   .features {
@@ -543,12 +573,18 @@ html, body {
   height: auto;
   @media (max-width: $medium) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $small) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $xsmall) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   @media (max-width: $medium) {
     height: auto;
