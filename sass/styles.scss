@@ -313,9 +313,12 @@ html, body {
       margin: 0px;
       font-family: 'Henderson', Georgia, sans-serif;
       font-weight: 400;
+      float: left;
+      letter-spacing: -2px;
       @media (max-width: 1160px) {
         padding-bottom: 0px;
         padding: 50px 30px 0px 30px;
+        float: none;
       }
     }
     p {
@@ -323,7 +326,7 @@ html, body {
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 300;
       line-height: 30px;
-      max-width: 80%;
+      max-width: 90%;
       margin: 0px;
       padding: 50px 80px 50px 80px;
       @media (max-width: 1160px) {
@@ -405,9 +408,12 @@ html, body {
       margin: 0px;
       font-family: 'Henderson', Georgia, sans-serif;
       font-weight: 400;
+      float: left;
+      letter-spacing: -2px;
       @media (max-width: 1160px) {
         padding-bottom: 0px;
         padding: 10px 30px 0px 30px;
+        float: none;
       }
     }
     p {
@@ -415,7 +421,7 @@ html, body {
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 300;
       line-height: 30px;
-      max-width: 80%;
+      max-width: 90%;
       margin: 0px;
       padding: 50px 80px 50px 80px;
       @media (max-width: 1160px) {
@@ -497,9 +503,12 @@ html, body {
       margin: 0px;
       font-family: 'Henderson', Georgia, sans-serif;
       font-weight: 400;
+      float: left;
+      letter-spacing: -2px;
       @media (max-width: 1160px) {
         padding-bottom: 0px;
         padding: 10px 30px 0px 30px;
+        float: none;
       }
     }
     p {
@@ -507,7 +516,7 @@ html, body {
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 300;
       line-height: 30px;
-      max-width: 80%;
+      max-width: 90%;
       margin: 0px;
       padding: 50px 80px 50px 80px;
       @media (max-width: 1160px) {
@@ -649,7 +658,7 @@ html, body {
         margin-bottom: 0px;
       }
     }
-    .col-md-6 {
+    .col-md-6, .col-md-7 {
       h3 {
         font-size: 22px;
         line-height: 28px;
@@ -775,7 +784,11 @@ html, body {
 
   /* 16x9 Aspect Ratio */
   .map-embed-16x9 {
-    padding-bottom: 56.25%;
+    height: 800px;
+    @media (max-width: $medium) {
+      height: 600px;
+      width: 100%;
+    }
   }
 
   /* 4x3 Aspect Ratioo */

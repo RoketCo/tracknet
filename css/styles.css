@@ -231,17 +231,20 @@ html, body {
     padding: 50px 80px 50px 80px;
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    float: left;
+    letter-spacing: -2px; }
     @media (max-width: 1160px) {
       .locate .header h3 {
         padding-bottom: 0px;
-        padding: 50px 30px 0px 30px; } }
+        padding: 50px 30px 0px 30px;
+        float: none; } }
   .locate .header p {
     font-size: 22px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 300;
     line-height: 30px;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0px;
     padding: 50px 80px 50px 80px; }
     @media (max-width: 1160px) {
@@ -308,17 +311,20 @@ html, body {
     padding: 50px 80px 50px 80px;
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    float: left;
+    letter-spacing: -2px; }
     @media (max-width: 1160px) {
       .secure .header h3 {
         padding-bottom: 0px;
-        padding: 10px 30px 0px 30px; } }
+        padding: 10px 30px 0px 30px;
+        float: none; } }
   .secure .header p {
     font-size: 22px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 300;
     line-height: 30px;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0px;
     padding: 50px 80px 50px 80px; }
     @media (max-width: 1160px) {
@@ -385,17 +391,20 @@ html, body {
     padding: 50px 80px 50px 80px;
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    float: left;
+    letter-spacing: -2px; }
     @media (max-width: 1160px) {
       .monitor .header h3 {
         padding-bottom: 0px;
-        padding: 10px 30px 0px 30px; } }
+        padding: 10px 30px 0px 30px;
+        float: none; } }
   .monitor .header p {
     font-size: 22px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 300;
     line-height: 30px;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0px;
     padding: 50px 80px 50px 80px; }
     @media (max-width: 1160px) {
@@ -516,25 +525,25 @@ html, body {
       @media (max-width: 992px) {
         .the-hub .features .row {
           margin-bottom: 0px; } }
-    .the-hub .features .col-md-6 h3 {
+    .the-hub .features .col-md-6 h3, .the-hub .features .col-md-7 h3 {
       font-size: 22px;
       line-height: 28px;
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 400; }
-    .the-hub .features .col-md-6 h4 {
+    .the-hub .features .col-md-6 h4, .the-hub .features .col-md-7 h4 {
       font-size: 26px;
       line-height: 31px;
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 400;
       margin-top: 0px; }
-    .the-hub .features .col-md-6 p {
+    .the-hub .features .col-md-6 p, .the-hub .features .col-md-7 p {
       font-size: 18px;
       line-height: 24px;
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 400;
       color: #8B8B8B; }
     @media (max-width: 992px) {
-      .the-hub .features .col-md-6 {
+      .the-hub .features .col-md-6, .the-hub .features .col-md-7 {
         margin-bottom: 30px; } }
 
 .integrates {
@@ -621,7 +630,11 @@ html, body {
     height: 0;
     overflow: hidden; }
   .iframe .map-embed-16x9 {
-    padding-bottom: 56.25%; }
+    height: 800px; }
+    @media (max-width: 992px) {
+      .iframe .map-embed-16x9 {
+        height: 600px;
+        width: 100%; } }
   .iframe .map-embed-4x3 {
     padding-bottom: 75%; }
   .iframe .map-embed iframe {
