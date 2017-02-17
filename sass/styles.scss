@@ -15,6 +15,7 @@
 $xsmall: 480px;
 $small: 768px;
 $medium: 992px;
+$large: 1280px;
 
 $brand-primary: #FCBD2B;
 $brand-primary-hover: #e9a508;
@@ -36,6 +37,8 @@ $lightgray: #F4F4F4;
 html, body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 // 2. Navigation
@@ -192,6 +195,12 @@ html, body {
   display: block;
   float: left;
   width: 100%;
+  @media (max-width: $large) {
+    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg');
+    height: 610px;
+    background-position: center center;
+    background-size: cover;
+  }
   @media (max-width: $medium) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-m.jpg');
     background-position: center center;
@@ -222,11 +231,14 @@ html, body {
       margin: 0 auto;
       position: relative;
       left: 0;
-      top: 160px;
+      top: 100px;
     }
   }
   .content-container {
     height: 810px;
+    @media (max-width: $large) {
+      height: 610px;
+    }
     .content {
       position: relative;
       top: 50%;
@@ -289,6 +301,12 @@ html, body {
   padding-top: 40px;
   height: 640px;
   border-top: 10px solid white;
+  @media (max-width: $large) {
+    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 610px;
+  }
   @media (max-width: $medium) {
     background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-m.jpg');
     background-position: center center;
@@ -366,6 +384,12 @@ html, body {
     background-size: cover;
     height: 640px;
     border-radius: 10px;
+    @media (max-width: $large) {
+      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-l.jpg');
+      background-position: center center;
+      background-size: cover;
+      height: 610px;
+    }
     @media (max-width: $medium) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-m.jpg');
       background-position: center center;
@@ -461,6 +485,12 @@ html, body {
     background-size: cover;
     height: 640px;
     border-radius: 10px;
+    @media (max-width: $large) {
+      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-l.jpg');
+      background-position: center center;
+      background-size: cover;
+      height: 610px;
+    }
     @media (max-width: $medium) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-m.jpg');
       background-position: center center;
@@ -556,6 +586,12 @@ html, body {
     background-size: cover;
     height: 640px;
     border-radius: 10px;
+    @media (max-width: $large) {
+      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-l.jpg');
+      background-position: center center;
+      background-size: cover;
+      height: 610px;
+    }
     @media (max-width: $medium) {
       background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-m.jpg');
       background-position: center center;
