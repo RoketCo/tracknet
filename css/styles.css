@@ -56,10 +56,10 @@ html, body {
     height: 50px;
     margin-left: 4px; }
     .navigation button #bg {
-      fill: #00A2BA;
+      fill: #8B8B8B;
       transition: all 0.5s ease; }
     .navigation button:hover #bg {
-      fill: #02879a;
+      fill: #585858;
       transition: all 0.5s ease; }
     .navigation button:hover #Arrow-Right {
       fill: white; }
@@ -100,22 +100,22 @@ html, body {
         margin-left: 6px; }
       .navigation .social .icons .facebook #bg {
         transition: all 0.5s ease;
-        fill: #00A2BA; }
+        fill: #8B8B8B; }
       .navigation .social .icons .facebook:hover svg #bg {
         transition: all 0.5s ease;
-        fill: #02879a; }
+        fill: #585858; }
       .navigation .social .icons .twitter #bg {
         transition: all 0.5s ease;
-        fill: #00A2BA; }
+        fill: #8B8B8B; }
       .navigation .social .icons .twitter:hover svg #bg {
         transition: all 0.5s ease;
-        fill: #02879a; }
+        fill: #585858; }
       .navigation .social .icons .email #bg {
         transition: all 0.5s ease;
-        fill: #00A2BA; }
+        fill: #8B8B8B; }
       .navigation .social .icons .email:hover svg #bg {
         transition: all 0.5s ease;
-        fill: #02879a; }
+        fill: #585858; }
 
 .hero {
   height: 710px;
@@ -190,6 +190,15 @@ html, body {
         font-family: 'Proxima Nova', Georgia, sans-serif;
         font-weight: 300;
         color: white; }
+      .hero .content-container .content svg.keeptabs {
+        text-align: center;
+        margin: 0 auto;
+        width: 382px;
+        height: 75px;
+        display: block; }
+        @media (max-width: 768px) {
+          .hero .content-container .content svg.keeptabs {
+            width: 300px; } }
 
 .product-group {
   display: block;
@@ -232,7 +241,7 @@ html, body {
   width: 100%; }
   .locate .header h3 {
     font-size: 44px;
-    padding: 50px 80px 50px 80px;
+    padding: 80px 80px 50px 80px;
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
     font-weight: 400;
@@ -241,7 +250,7 @@ html, body {
     @media (max-width: 1160px) {
       .locate .header h3 {
         padding-bottom: 0px;
-        padding: 50px 30px 0px 30px;
+        padding: 80px 30px 0px 30px;
         float: none; } }
   .locate .header p {
     font-size: 22px;
@@ -250,7 +259,7 @@ html, body {
     line-height: 30px;
     max-width: 90%;
     margin: 0px;
-    padding: 50px 80px 50px 80px; }
+    padding: 80px 80px 50px 80px; }
     @media (max-width: 1160px) {
       .locate .header p {
         max-width: 100%;
@@ -312,7 +321,7 @@ html, body {
   width: 100%; }
   .secure .header h3 {
     font-size: 44px;
-    padding: 50px 80px 50px 80px;
+    padding: 80px 80px 50px 80px;
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
     font-weight: 400;
@@ -321,7 +330,7 @@ html, body {
     @media (max-width: 1160px) {
       .secure .header h3 {
         padding-bottom: 0px;
-        padding: 10px 30px 0px 30px;
+        padding: 40px 30px 0px 30px;
         float: none; } }
   .secure .header p {
     font-size: 22px;
@@ -330,7 +339,7 @@ html, body {
     line-height: 30px;
     max-width: 90%;
     margin: 0px;
-    padding: 50px 80px 50px 80px; }
+    padding: 80px 80px 50px 80px; }
     @media (max-width: 1160px) {
       .secure .header p {
         max-width: 100%;
@@ -392,7 +401,7 @@ html, body {
   width: 100%; }
   .monitor .header h3 {
     font-size: 44px;
-    padding: 50px 80px 50px 80px;
+    padding: 80px 80px 50px 80px;
     margin: 0px;
     font-family: 'Henderson', Georgia, sans-serif;
     font-weight: 400;
@@ -401,7 +410,7 @@ html, body {
     @media (max-width: 1160px) {
       .monitor .header h3 {
         padding-bottom: 0px;
-        padding: 10px 30px 0px 30px;
+        padding: 40px 30px 0px 30px;
         float: none; } }
   .monitor .header p {
     font-size: 22px;
@@ -410,7 +419,7 @@ html, body {
     line-height: 30px;
     max-width: 90%;
     margin: 0px;
-    padding: 50px 80px 50px 80px; }
+    padding: 80px 80px 50px 80px; }
     @media (max-width: 1160px) {
       .monitor .header p {
         max-width: 100%;
