@@ -521,17 +521,7 @@ html, body {
   height: auto; }
   @media (max-width: 992px) {
     .the-hub {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg");
-      background-position: center center;
-      background-size: cover; } }
-  @media (max-width: 768px) {
-    .the-hub {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg");
-      background-position: center center;
-      background-size: cover; } }
-  @media (max-width: 480px) {
-    .the-hub {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg");
+      background: url("");
       background-position: center center;
       background-size: cover; } }
   @media (max-width: 992px) {
@@ -594,6 +584,33 @@ html, body {
     @media (max-width: 992px) {
       .the-hub .features .col-md-6, .the-hub .features .col-md-7 {
         margin-bottom: 30px; } }
+  @media (max-width: 992px) {
+    .the-hub .hub-mobile {
+      display: block;
+      float: left;
+      width: 100%;
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg");
+      background-position: center center;
+      background-size: cover;
+      height: 610px; } }
+  @media (max-width: 768px) {
+    .the-hub .hub-mobile {
+      display: block;
+      float: left;
+      width: 100%;
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg");
+      background-position: center center;
+      background-size: cover;
+      height: 610px; } }
+  @media (max-width: 480px) {
+    .the-hub .hub-mobile {
+      display: block;
+      float: left;
+      width: 100%;
+      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg");
+      background-position: center center;
+      background-size: cover;
+      height: 610px; } }
 
 .integrates {
   display: block;
@@ -704,7 +721,7 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  padding: 60px 60px 20px 60px;
+  padding: 30px 60px 0px 60px;
   background-color: white;
   text-align: center; }
   @media (max-width: 992px) {
