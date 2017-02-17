@@ -189,7 +189,8 @@ html, body {
         line-height: 31px;
         font-family: 'Proxima Nova', Georgia, sans-serif;
         font-weight: 300;
-        color: white; }
+        color: white;
+        margin-top: 10px; }
       .hero .content-container .content svg.keeptabs {
         text-align: center;
         margin: 0 auto;
