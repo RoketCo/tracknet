@@ -118,7 +118,7 @@ html, body {
         fill: #585858; }
 
 .hero {
-  height: 710px;
+  height: 810px;
   background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg");
   background-position: center center;
   background-size: cover;
@@ -157,7 +157,7 @@ html, body {
         left: 0;
         top: 160px; } }
   .hero .content-container {
-    height: 710px; }
+    height: 810px; }
     .hero .content-container .content {
       position: relative;
       top: 50%;

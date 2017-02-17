@@ -11,7 +11,7 @@
 // 11. iFrame
 // 12. Footer
 
-// 1. Vars, Globals, Font
+// 1. Vars, Globals, Fonts
 $xsmall: 480px;
 $small: 768px;
 $medium: 992px;
@@ -185,7 +185,7 @@ html, body {
 
 // 3. Hero
 .hero {
-  height: 710px;
+  height: 810px;
   background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg');
   background-position: center center;
   background-size: cover;
@@ -226,7 +226,7 @@ html, body {
     }
   }
   .content-container {
-    height: 710px;
+    height: 810px;
     .content {
       position: relative;
       top: 50%;
@@ -866,4 +866,8 @@ html, body {
   .footer-logo {
     padding: 80px;
   }
+}
+
+.tt {
+
 }
