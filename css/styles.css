@@ -771,6 +771,50 @@ html, body {
     @media (max-width: 768px) {
       .footer .footer-logo {
         padding: 40px 0px 40px 0px; } }
-  @media (max-width: 768px) {
-    .footer svg {
-      width: 50%; } }
+    @media (max-width: 768px) {
+      .footer .footer-logo svg {
+        width: 50%;
+        margin: 40px; } }
+  .footer .social {
+    float: none;
+    margin: 0 auto;
+    width: 136px;
+    margin-top: 20px; }
+    @media (max-width: 992px) {
+      .footer .social {
+        padding-right: 0px; } }
+    .footer .social p {
+      float: left;
+      margin: 0px;
+      line-height: 42px;
+      margin-right: 24px;
+      font-size: 18px;
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-weight: 300;
+      color: #585858; }
+      @media (max-width: 768px) {
+        .footer .social p {
+          display: none; } }
+    .footer .social .icons {
+      float: left; }
+      .footer .social .icons .facebook, .footer .social .icons .twitter, .footer .social .icons .email {
+        float: left;
+        margin: 2px; }
+      .footer .social .icons .facebook #bg {
+        transition: all 0.5s ease;
+        fill: #8B8B8B; }
+      .footer .social .icons .facebook:hover svg #bg {
+        transition: all 0.5s ease;
+        fill: #585858; }
+      .footer .social .icons .twitter #bg {
+        transition: all 0.5s ease;
+        fill: #8B8B8B; }
+      .footer .social .icons .twitter:hover svg #bg {
+        transition: all 0.5s ease;
+        fill: #585858; }
+      .footer .social .icons .email #bg {
+        transition: all 0.5s ease;
+        fill: #8B8B8B; }
+      .footer .social .icons .email:hover svg #bg {
+        transition: all 0.5s ease;
+        fill: #585858; }
