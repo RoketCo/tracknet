@@ -315,7 +315,8 @@ html, body {
       .locate .product {
         background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-xs.jpg");
         background-position: center center;
-        background-size: cover; } }
+        background-size: cover;
+        height: 1000px; } }
   .locate .features {
     padding: 50px 80px 0px 80px;
     display: block;
@@ -401,7 +402,8 @@ html, body {
       .secure .product {
         background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-xs.jpg");
         background-position: center center;
-        background-size: cover; } }
+        background-size: cover;
+        height: 1000px; } }
   .secure .features {
     padding: 50px 80px 0px 80px;
     display: block;
@@ -487,7 +489,8 @@ html, body {
       .monitor .product {
         background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-xs.jpg");
         background-position: center center;
-        background-size: cover; } }
+        background-size: cover;
+        height: 1000px; } }
   .monitor .features {
     padding: 50px 80px 50px 80px;
     display: block;
