@@ -933,5 +933,13 @@ html, body {
   }
   .footer-logo {
     padding: 80px;
+    @media (max-width: $small) {
+      padding: 40px 0px 40px 0px;
+    }
+  }
+  svg {
+    @media (max-width: $small) {
+      width: 50%;
+    }
   }
 }
