@@ -681,7 +681,7 @@ html, body {
   text-align: center; }
   @media (max-width: 992px) {
     .coverage {
-      padding: 60px 30px 0px 30px; } }
+      padding: 60px 30px 30px 30px; } }
   .coverage h3 {
     font-size: 44px;
     line-height: 55px;
@@ -741,7 +741,7 @@ html, body {
   text-align: center; }
   @media (max-width: 992px) {
     .footer {
-      padding: 10px 60px 0px 60px; } }
+      padding: 10px 20px 0px 20px; } }
   .footer p {
     font-size: 18px;
     line-height: 24px;
