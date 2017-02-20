@@ -562,8 +562,11 @@ html, body {
         padding-bottom: 20px; } }
     .the-hub .features .feature-rows {
       margin-top: 60px; }
-      .the-hub .features .feature-rows .col-md-1, .the-hub .features .feature-rows .col-md-11 {
+      .the-hub .features .feature-rows .col-md-2, .the-hub .features .feature-rows .col-md-10 {
         padding: 0px; }
+      @media (max-width: 992px) {
+        .the-hub .features .feature-rows .col-md-2 {
+          padding-bottom: 20px; } }
       @media (max-width: 992px) {
         .the-hub .features .feature-rows {
           margin-top: 10px; } }
@@ -600,8 +603,7 @@ html, body {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg");
       background-position: center center;
       background-size: cover;
-      height: 560px;
-      margin-bottom: 60px; } }
+      height: 560px; } }
   @media (max-width: 768px) {
     .the-hub .hub-mobile {
       display: block;
@@ -610,8 +612,7 @@ html, body {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg");
       background-position: center center;
       background-size: cover;
-      height: 560px;
-      margin-bottom: 60px; } }
+      height: 560px; } }
   @media (max-width: 480px) {
     .the-hub .hub-mobile {
       display: block;
@@ -620,8 +621,7 @@ html, body {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg");
       background-position: center center;
       background-size: cover;
-      height: 560px;
-      margin-bottom: 60px; } }
+      height: 560px; } }
 
 .integrates {
   display: block;
