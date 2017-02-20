@@ -217,7 +217,7 @@ html, body {
   float: left;
   width: 100%;
   background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg");
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
   padding-top: 40px;
   height: 640px;
@@ -225,23 +225,23 @@ html, body {
   @media (max-width: 1280px) {
     .product-group {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg");
-      background-position: center center;
+      background-position: center bottom;
       background-size: cover;
       height: 610px; } }
   @media (max-width: 992px) {
     .product-group {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-m.jpg");
-      background-position: center center;
+      background-position: center bottom;
       background-size: cover; } }
   @media (max-width: 768px) {
     .product-group {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-s.jpg");
-      background-position: center center;
+      background-position: center bottom;
       background-size: cover; } }
   @media (max-width: 480px) {
     .product-group {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-xs.jpg");
-      background-position: center center;
+      background-position: center bottom;
       background-size: cover; } }
   .product-group h3 {
     text-align: center;
@@ -536,6 +536,11 @@ html, body {
       font-size: 44px;
       font-family: 'Henderson', Georgia, sans-serif;
       font-weight: 400; }
+    .the-hub .header h3.primary-head {
+      font-size: 44px;
+      font-family: 'Henderson', Georgia, sans-serif;
+      font-weight: 400;
+      letter-spacing: -2px; }
     .the-hub .header p {
       font-size: 22px;
       font-family: 'Proxima Nova', Georgia, sans-serif;
@@ -573,7 +578,7 @@ html, body {
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 400; }
     .the-hub .features .col-md-6 h4, .the-hub .features .col-md-7 h4 {
-      font-size: 26px;
+      font-size: 24px;
       line-height: 31px;
       font-family: 'Proxima Nova', Georgia, sans-serif;
       font-weight: 400;
@@ -595,9 +600,8 @@ html, body {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg");
       background-position: center center;
       background-size: cover;
-      height: 610px;
-      margin-bottom: 60px;
-      border-radius: 10px; } }
+      height: 560px;
+      margin-bottom: 60px; } }
   @media (max-width: 768px) {
     .the-hub .hub-mobile {
       display: block;
@@ -606,9 +610,8 @@ html, body {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg");
       background-position: center center;
       background-size: cover;
-      height: 610px;
-      margin-bottom: 60px;
-      border-radius: 10px; } }
+      height: 560px;
+      margin-bottom: 60px; } }
   @media (max-width: 480px) {
     .the-hub .hub-mobile {
       display: block;
@@ -617,9 +620,8 @@ html, body {
       background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg");
       background-position: center center;
       background-size: cover;
-      height: 610px;
-      margin-bottom: 60px;
-      border-radius: 10px; } }
+      height: 560px;
+      margin-bottom: 60px; } }
 
 .integrates {
   display: block;
@@ -681,7 +683,8 @@ html, body {
     font-size: 44px;
     line-height: 55px;
     font-family: 'Henderson', Georgia, sans-serif;
-    font-weight: 400; }
+    font-weight: 400;
+    letter-spacing: -2px; }
   .coverage p {
     font-size: 18px;
     line-height: 24px;
