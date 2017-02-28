@@ -122,7 +122,7 @@ html, body {
 
 .hero {
   height: 810px;
-  background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg");
+  background: url("../img/hero-l.jpg");
   background-position: center center;
   background-size: cover;
   display: block;
@@ -130,23 +130,23 @@ html, body {
   width: 100%; }
   @media (max-width: 1280px) {
     .hero {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg");
+      background: url("../img/hero-l.jpg");
       height: 610px;
       background-position: center center;
       background-size: cover; } }
   @media (max-width: 992px) {
     .hero {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-m.jpg");
+      background: url("../img/hero-m.jpg");
       background-position: center center;
       background-size: cover; } }
   @media (max-width: 768px) {
     .hero {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-s.jpg");
+      background: url("../img/hero-s.jpg");
       background-position: center center;
       background-size: cover; } }
   @media (max-width: 480px) {
     .hero {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-xs.jpg");
+      background: url("../img/hero-xs.jpg");
       background-position: center center;
       background-size: cover; } }
   .hero .logo {
@@ -220,7 +220,7 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg");
+  background: url("../img/product-group-l.jpg");
   background-position: center bottom;
   background-size: cover;
   padding-top: 40px;
@@ -228,23 +228,23 @@ html, body {
   border-top: 10px solid white; }
   @media (max-width: 1280px) {
     .product-group {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg");
+      background: url("../img/product-group-l.jpg");
       background-position: center bottom;
       background-size: cover;
       height: 610px; } }
   @media (max-width: 992px) {
     .product-group {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-m.jpg");
+      background: url("../img/product-group-m.jpg");
       background-position: center bottom;
       background-size: cover; } }
   @media (max-width: 768px) {
     .product-group {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-s.jpg");
+      background: url("../img/product-group-s.jpg");
       background-position: center bottom;
       background-size: cover; } }
   @media (max-width: 480px) {
     .product-group {
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-xs.jpg");
+      background: url("../img/product-group-xs.jpg");
       background-position: center bottom;
       background-size: cover; } }
   .product-group h3 {
@@ -294,30 +294,30 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-l.jpg");
+    background: url("../img/locate-l.jpg");
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px; }
     @media (max-width: 1280px) {
       .locate .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-l.jpg");
+        background: url("../img/locate-l.jpg");
         background-position: center center;
         background-size: cover;
         height: 610px; } }
     @media (max-width: 992px) {
       .locate .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-m.jpg");
+        background: url("../img/locate-m.jpg");
         background-position: center center;
         background-size: cover; } }
     @media (max-width: 768px) {
       .locate .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-s.jpg");
+        background: url("../img/locate-s.jpg");
         background-position: center center;
         background-size: cover; } }
     @media (max-width: 480px) {
       .locate .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-xs.jpg");
+        background: url("../img/locate-xs.jpg");
         background-position: center center;
         background-size: cover;
         height: 1000px; } }
@@ -381,30 +381,30 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-l.jpg");
+    background: url("../img/secure-l.jpg");
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px; }
     @media (max-width: 1280px) {
       .secure .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-l.jpg");
+        background: url("../img/secure-l.jpg");
         background-position: center center;
         background-size: cover;
         height: 610px; } }
     @media (max-width: 992px) {
       .secure .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-m.jpg");
+        background: url("../img/secure-m.jpg");
         background-position: center center;
         background-size: cover; } }
     @media (max-width: 768px) {
       .secure .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-s.jpg");
+        background: url("../img/secure-s.jpg");
         background-position: center center;
         background-size: cover; } }
     @media (max-width: 480px) {
       .secure .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-xs.jpg");
+        background: url("../img/secure-xs.jpg");
         background-position: center center;
         background-size: cover;
         height: 1000px; } }
@@ -468,30 +468,30 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-l.jpg");
+    background: url("../img/monitor-l.jpg");
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px; }
     @media (max-width: 1280px) {
       .monitor .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-l.jpg");
+        background: url("../img/monitor-l.jpg");
         background-position: center center;
         background-size: cover;
         height: 610px; } }
     @media (max-width: 992px) {
       .monitor .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-m.jpg");
+        background: url("../img/monitor-m.jpg");
         background-position: center center;
         background-size: cover; } }
     @media (max-width: 768px) {
       .monitor .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-s.jpg");
+        background: url("../img/monitor-s.jpg");
         background-position: center center;
         background-size: cover; } }
     @media (max-width: 480px) {
       .monitor .product {
-        background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-xs.jpg");
+        background: url("../img/monitor-xs.jpg");
         background-position: center center;
         background-size: cover;
         height: 1000px; } }
@@ -522,7 +522,7 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-l.jpg");
+  background: url("../img/hub-l.jpg");
   background-position: center center;
   background-size: cover;
   height: auto; }
@@ -607,7 +607,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg");
+      background: url("../img/hub-m.jpg");
       background-position: center center;
       background-size: cover;
       height: 560px; } }
@@ -616,7 +616,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg");
+      background: url("../img/hub-s.jpg");
       background-position: center center;
       background-size: cover;
       height: 560px; } }
@@ -625,7 +625,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url("https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg");
+      background: url("../img/hub-xs.jpg");
       background-position: center center;
       background-size: cover;
       height: 560px; } }

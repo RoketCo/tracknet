@@ -196,30 +196,30 @@ html, body {
 // 3. Hero
 .hero {
   height: 810px;
-  background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg');
+  background: url('../img/hero-l.jpg');
   background-position: center center;
   background-size: cover;
   display: block;
   float: left;
   width: 100%;
   @media (max-width: $large) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-l.jpg');
+    background: url('../img/hero-l.jpg');
     height: 610px;
     background-position: center center;
     background-size: cover;
   }
   @media (max-width: $medium) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-m.jpg');
+    background: url('../img/hero-m.jpg');
     background-position: center center;
     background-size: cover;
   }
   @media (max-width: $small) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-s.jpg');
+    background: url('../img/hero-s.jpg');
     background-position: center center;
     background-size: cover;
   }
   @media (max-width: $xsmall) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hero-xs.jpg');
+    background: url('../img/hero-xs.jpg');
     background-position: center center;
     background-size: cover;
   }
@@ -305,30 +305,30 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg');
+  background: url('../img/product-group-l.jpg');
   background-position: center bottom;
   background-size: cover;
   padding-top: 40px;
   height: 670px;
   border-top: 10px solid white;
   @media (max-width: $large) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-l.jpg');
+    background: url('../img/product-group-l.jpg');
     background-position: center bottom;
     background-size: cover;
     height: 610px;
   }
   @media (max-width: $medium) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-m.jpg');
+    background: url('../img/product-group-m.jpg');
     background-position: center bottom;
     background-size: cover;
   }
   @media (max-width: $small) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-s.jpg');
+    background: url('../img/product-group-s.jpg');
     background-position: center bottom;
     background-size: cover;
   }
   @media (max-width: $xsmall) {
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/product-group-xs.jpg');
+    background: url('../img/product-group-xs.jpg');
     background-position: center bottom;
     background-size: cover;
   }
@@ -389,29 +389,29 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-l.jpg');
+    background: url('../img/locate-l.jpg');
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px;
     @media (max-width: $large) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-l.jpg');
+      background: url('../img/locate-l.jpg');
       background-position: center center;
       background-size: cover;
       height: 610px;
     }
     @media (max-width: $medium) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-m.jpg');
+      background: url('../img/locate-m.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $small) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-s.jpg');
+      background: url('../img/locate-s.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $xsmall) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/locate-xs.jpg');
+      background: url('../img/locate-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 1000px;
@@ -491,29 +491,29 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-l.jpg');
+    background: url('../img/secure-l.jpg');
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px;
     @media (max-width: $large) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-l.jpg');
+      background: url('../img/secure-l.jpg');
       background-position: center center;
       background-size: cover;
       height: 610px;
     }
     @media (max-width: $medium) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-m.jpg');
+      background: url('../img/secure-m.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $small) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-s.jpg');
+      background: url('../img/secure-s.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $xsmall) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/secure-xs.jpg');
+      background: url('../img/secure-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 1000px;
@@ -593,29 +593,29 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-l.jpg');
+    background: url('../img/monitor-l.jpg');
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px;
     @media (max-width: $large) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-l.jpg');
+      background: url('../img/monitor-l.jpg');
       background-position: center center;
       background-size: cover;
       height: 610px;
     }
     @media (max-width: $medium) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-m.jpg');
+      background: url('../img/monitor-m.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $small) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-s.jpg');
+      background: url('../img/monitor-s.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $xsmall) {
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/monitor-xs.jpg');
+      background: url('../img/monitor-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 1000px;
@@ -656,7 +656,7 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-l.jpg');
+  background: url('../img/hub-l.jpg');
   background-position: center center;
   background-size: cover;
   height: auto;
@@ -758,7 +758,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-m.jpg');
+      background: url('../img/hub-m.jpg');
       background-position: center center;
       background-size: cover;
       height: 560px;
@@ -767,7 +767,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-s.jpg');
+      background: url('../img/hub-s.jpg');
       background-position: center center;
       background-size: cover;
       height: 560px;
@@ -776,7 +776,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url('https://s3.amazonaws.com/roket-sandbox/sandbox/tabs/hub-xs.jpg');
+      background: url('../img/hub-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 560px;
