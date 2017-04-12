@@ -824,6 +824,28 @@ html, body {
     margin: 0px auto;
     margin-top: 40px; }
 
+.modal .modal-dialog {
+  max-width: 1129px;
+  width: 100%; }
+
+.modal .modal-content {
+  background: #FFFFFF;
+  box-shadow: 1px 1px 6px 4px rgba(167, 167, 167, 0.5);
+  border: none !important;
+  border-radius: 0px; }
+
+.modal .close-btn {
+  background-color: #00A2BA;
+  color: #fff;
+  border: none !important;
+  position: relative;
+  float: right;
+  z-index: 10000;
+  border-radius: 99999px; }
+
+.modal-backdrop {
+  background-color: #fff !important; }
+
 .footer {
   display: block;
   float: left;
