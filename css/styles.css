@@ -844,7 +844,7 @@ html, body {
       font-family: 'Proxima Nova', Georgia, sans-serif;
       color: #414042;
       text-align: center;
-      margin-bottom: 36px;
+      margin-bottom: 26px;
       margin-top: 15px;
       font-weight: normal;
       letter-spacing: -0.63px; }
@@ -858,7 +858,7 @@ html, body {
       margin: 0px auto;
       letter-spacing: -0.85px; }
       .pre-order .orders-wrap .pre-order-text p br {
-        line-height: 43px; }
+        line-height: 53px; }
       @media screen and (max-width: 992px) {
         .pre-order .orders-wrap .pre-order-text p {
           padding-bottom: 0px; } }
@@ -880,7 +880,7 @@ html, body {
       text-align: center;
       padding: 15px 25px;
       display: block;
-      margin: 163px auto 60px auto;
+      margin: 154px auto 52px auto;
       letter-spacing: -0.53px; }
       .pre-order .orders-wrap .pre-order-btn button:hover, .pre-order .orders-wrap .pre-order-btn button:active {
         background-color: #d8d8d8; }
@@ -906,6 +906,8 @@ html, body {
       margin-top: 40px;
       letter-spacing: -0.85px;
       font-weight: normal; }
+    .pre-order .orders-wrap .included-wrap .security-sub {
+      margin-top: 69px; }
 
 .modal .modal-dialog {
   max-width: 1129px;
