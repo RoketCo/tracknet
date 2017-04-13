@@ -3,7 +3,8 @@ a, button {
 
 .outer-container {
   max-width: 1600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 40px; }
 
 .inner-container {
   max-width: 1280px;
@@ -766,7 +767,8 @@ html, body {
   text-align: center;
   letter-spacing: -0.53px;
   cursor: pointer;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-family: 'Proxima Nova', Georgia, sans-serif; }
   .btn-cta:hover, .btn-cta:active {
     background-color: #007687;
     text-decoration: none;
@@ -775,7 +777,12 @@ html, body {
 .pre-order-top {
   background-color: #00A2BA;
   height: 40px;
-  transition: all .5s ease; }
+  transition: all .5s ease;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+  .pre-order-top span {
+    text-decoration: underline !important; }
   .pre-order-top:hover, .pre-order-top:active {
     background-color: #007687; }
     .pre-order-top:hover a, .pre-order-top:active a {
@@ -911,7 +918,8 @@ html, body {
 .modal .modal-dialog {
   max-width: 1129px;
   width: 100%;
-  padding: 20px; }
+  padding: 20px;
+  margin: 10px auto; }
 
 .modal .modal-content {
   background: #FFFFFF;
