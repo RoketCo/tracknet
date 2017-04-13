@@ -957,7 +957,7 @@ html, body {
 }
 .pre-order-top{
   background-color: $brand-blue;
-  height: 30px;
+  height: 40px;
   transition: all .5s ease;
 
   &:hover,&:active{
@@ -975,7 +975,7 @@ html, body {
     font-weight: 500;
     font-size: 18px;
     margin: 0px auto;
-    padding-top: 3px;
+    padding-top: 8px;
     display: block;
 
   }
@@ -1090,6 +1090,12 @@ html, body {
           background-color:#d8d8d8;
         }
       }
+
+    }
+    .sec-btn{
+      button{
+        margin-top:181px;
+      }
     }
     .included-wrap{
       img{
@@ -1117,9 +1123,7 @@ html, body {
         letter-spacing: -0.85px;
         font-weight: normal;
       }
-      .security-sub{
-        margin-top: 69px;
-      }
+
     }
   }
 }

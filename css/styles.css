@@ -774,7 +774,7 @@ html, body {
 
 .pre-order-top {
   background-color: #00A2BA;
-  height: 30px;
+  height: 40px;
   transition: all .5s ease; }
   .pre-order-top:hover, .pre-order-top:active {
     background-color: #D8D8D8; }
@@ -789,7 +789,7 @@ html, body {
     font-weight: 500;
     font-size: 18px;
     margin: 0px auto;
-    padding-top: 3px;
+    padding-top: 8px;
     display: block; }
 
 .pre-order {
@@ -884,6 +884,8 @@ html, body {
       letter-spacing: -0.53px; }
       .pre-order .orders-wrap .pre-order-btn button:hover, .pre-order .orders-wrap .pre-order-btn button:active {
         background-color: #d8d8d8; }
+    .pre-order .orders-wrap .sec-btn button {
+      margin-top: 181px; }
     .pre-order .orders-wrap .included-wrap img {
       display: block;
       margin: 0px auto;
@@ -906,8 +908,6 @@ html, body {
       margin-top: 40px;
       letter-spacing: -0.85px;
       font-weight: normal; }
-    .pre-order .orders-wrap .included-wrap .security-sub {
-      margin-top: 69px; }
 
 .modal .modal-dialog {
   max-width: 1129px;
