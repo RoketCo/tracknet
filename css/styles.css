@@ -814,6 +814,8 @@ html, body {
   padding-top: 40px; }
   .pre-order a:active, .pre-order a:visited, .pre-order a:focus {
     color: #fff !important; }
+  .pre-order .custom-padding {
+    padding: 50px 80px 50px 93px; }
   .pre-order h3 {
     font-size: 44px;
     line-height: 55px;
