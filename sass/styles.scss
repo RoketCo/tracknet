@@ -1112,6 +1112,9 @@ text-decoration: none !important;
         display: block;
         margin:55px auto 52px auto;
         letter-spacing: -0.53px;
+        @media screen and (max-width:993px){
+          margin-top:29px;
+        }
         &:hover,&:active{
           background-color:darken($brand-blue,10%);
         }
@@ -1120,7 +1123,16 @@ text-decoration: none !important;
     }
     .sec-btn{
       button{
-        // margin-top:81px;
+        margin-top:110px;
+        @media screen and (max-width:1160px){
+          margin-top:81px;
+        }
+        @media screen and (max-width:1003px){
+          margin-top:42px;
+        }
+        @media screen and (max-width:992px){
+          margin-top:57px;
+        }
       }
     }
     .included-wrap{
