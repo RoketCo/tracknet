@@ -115,7 +115,7 @@ html, body {
     @media (max-width: $small) {
       position: absolute;
       z-index: 9999px;
-      top: 10px;
+      top: 50px;
       right: 10px;
     }
   }
@@ -243,7 +243,7 @@ html, body {
       margin: 0 auto;
       position: relative;
       left: 0;
-      top: 140px;
+      top: 90px;
     }
   }
   .content-container {
@@ -298,7 +298,8 @@ html, body {
         height: 75px;
         display: block;
         @media (max-width: $small) {
-          width: 300px;
+          max-width: 300px;
+          width:100%;
         }
       }
     }
@@ -935,7 +936,7 @@ html, body {
 // 12. Pre Order
 .btn-cta{
   background-color: $brand-blue;
-  color:#fff;
+  color:#fff !important;
   font-size: 22px;
   font-weight: 500;
   padding: 15px 15px;
@@ -949,7 +950,7 @@ html, body {
   cursor: pointer;
   border-radius: 5px;
   font-family: 'Proxima Nova', Georgia, sans-serif;
-
+text-decoration: none !important;
   &:hover, &:active{
     background-color:darken($brand-blue,10%);
     text-decoration: none;
@@ -978,20 +979,35 @@ html, body {
   }
   a{
     text-align: center;
-    color:#fff;
+    color:#fff !important;
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 500;
     font-size: 18px;
     margin: 0px auto;
     padding-top: 8px;
     display: block;
+    text-decoration: none !important;
+    @media screen and (max-width: 370px){
+      font-size: 15px;
+    }
 
+  }
+  a{
+    &:active,&:visited,&:focus{
+      color:#fff !important;
+    }
   }
 }
 .pre-order{
   height:auto;
   clear: both;
   float: none;
+  padding-top:40px;
+  a{
+    &:active,&:visited,&:focus{
+      color:#fff !important;
+    }
+  }
   h3 {
     font-size: 44px;
     line-height: 55px;
@@ -999,6 +1015,7 @@ html, body {
     font-weight: 400;
     margin-bottom:23px;
     letter-spacing: -3.02px;
+    margin-top: 0px;
     @media screen and (max-width: 1160px){
       padding: 40px 30px 0px 30px;
     }
@@ -1010,7 +1027,7 @@ html, body {
     font-weight: 300;
     color: #414042;
     max-width: 858px;
-    letter-spacing: -0.53px;
+    // letter-spacing: -0.53px;
     // margin: 0 auto;
     @media screen and (max-width: 1160px){
       padding: 10px 30px 50px 30px;
@@ -1064,7 +1081,7 @@ html, body {
         line-height: 26px;
         max-width: 476px;
         margin: 0px auto;
-        letter-spacing: -0.85px;
+        // letter-spacing: -0.85px;
         br{
           line-height: 53px;
         }
@@ -1129,7 +1146,7 @@ html, body {
         max-width: 476px;
         margin: 0px auto;
         margin-top:40px;
-        letter-spacing: -0.85px;
+        // letter-spacing: -0.85px;
         font-weight: normal;
       }
 
