@@ -905,17 +905,6 @@ html, body {
           margin-top: 29px; } }
       .pre-order .orders-wrap .pre-order-btn button:hover, .pre-order .orders-wrap .pre-order-btn button:active {
         background-color: #007687; }
-    .pre-order .orders-wrap .sec-btn button {
-      margin-top: 110px; }
-      @media screen and (max-width: 1160px) {
-        .pre-order .orders-wrap .sec-btn button {
-          margin-top: 81px; } }
-      @media screen and (max-width: 1003px) {
-        .pre-order .orders-wrap .sec-btn button {
-          margin-top: 42px; } }
-      @media screen and (max-width: 992px) {
-        .pre-order .orders-wrap .sec-btn button {
-          margin-top: 57px; } }
     .pre-order .orders-wrap .included-wrap img {
       display: block;
       margin: 0px auto;
