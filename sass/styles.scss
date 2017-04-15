@@ -1010,6 +1010,9 @@ text-decoration: none !important;
   }
   .custom-padding{
     padding:50px 80px 50px 93px;
+    @media (max-width: $medium) {
+      padding: 50px 10px;
+    }
   }
   h3 {
     font-size: 44px;
@@ -1113,7 +1116,7 @@ text-decoration: none !important;
         text-align: center;
         padding: 15px 25px;
         display: block;
-        margin:55px auto 52px auto;
+        margin:55px auto 0px auto;
         letter-spacing: -0.53px;
         @media screen and (max-width:993px){
           margin-top:29px;
@@ -1121,6 +1124,15 @@ text-decoration: none !important;
         &:hover,&:active{
           background-color:darken($brand-blue,10%);
         }
+      }
+      p{
+        font-size: 14px;
+        text-align: center;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        color:#8B8B8B;
+        margin-bottom: 52px;
+        margin-top: 15px;
+        padding:0px !important;
       }
 
     }
@@ -1163,6 +1175,9 @@ text-decoration: none !important;
         margin-top:40px;
         // letter-spacing: -0.85px;
         font-weight: normal;
+        b{
+          font-weight: 500;
+        }
       }
 
     }
