@@ -55,7 +55,45 @@ html, body {
       background: #f4f4f4; }
     @media (max-width: 768px) {
       .navigation input[type='email'] {
-        width: 100%; } }
+        width: 92%;
+        float: left; } }
+    @media screen and (max-width: 748px) {
+      .navigation input[type='email'] {
+        width: 91%; } }
+    @media screen and (max-width: 670px) {
+      .navigation input[type='email'] {
+        width: 90%; } }
+    @media screen and (max-width: 600px) {
+      .navigation input[type='email'] {
+        width: 89%; } }
+    @media screen and (max-width: 550px) {
+      .navigation input[type='email'] {
+        width: 88%; } }
+    @media screen and (max-width: 505px) {
+      .navigation input[type='email'] {
+        width: 87%; } }
+    @media screen and (max-width: 468px) {
+      .navigation input[type='email'] {
+        width: 86%; } }
+    @media screen and (max-width: 435px) {
+      .navigation input[type='email'] {
+        width: 85%; } }
+    @media screen and (max-width: 412px) {
+      .navigation input[type='email'] {
+        width: 84%; } }
+    @media screen and (max-width: 386px) {
+      .navigation input[type='email'] {
+        width: 83%; } }
+    @media screen and (max-width: 364px) {
+      .navigation input[type='email'] {
+        width: 82%;
+        font-size: 15px; } }
+    @media screen and (max-width: 343px) {
+      .navigation input[type='email'] {
+        width: 81%; } }
+    @media screen and (max-width: 328px) {
+      .navigation input[type='email'] {
+        width: 80.25%; } }
   .navigation button {
     background: none;
     vertical-align: middle;
@@ -74,10 +112,7 @@ html, body {
       fill: white; }
     @media (max-width: 768px) {
       .navigation button {
-        position: absolute;
-        z-index: 9999px;
-        top: 50px;
-        right: 10px; } }
+        float: right; } }
   .navigation .social {
     float: right;
     padding-right: 70px; }

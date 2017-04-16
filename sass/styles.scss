@@ -86,9 +86,47 @@ html, body {
       background: #f4f4f4;
     }
     @media (max-width: $small) {
-      width: 100%;
+      width: 92%;
+      float: left;
       // width: 100%;
       // margin-bottom: 20px;
+    }
+    @media screen and (max-width:748px){
+      width:91%;
+    }
+    @media screen and (max-width:670px){
+      width:90%;
+    }
+    @media screen and (max-width:600px){
+      width:89%;
+    }
+    @media screen and (max-width:550px){
+      width:88%;
+    }
+    @media screen and (max-width:505px){
+      width:87%;
+    }
+    @media screen and (max-width:468px){
+      width:86%;
+    }
+    @media screen and (max-width:435px){
+      width:85%;
+    }
+    @media screen and (max-width:412px){
+      width:84%;
+    }
+    @media screen and (max-width:386px){
+      width:83%;
+    }
+    @media screen and (max-width:364px){
+      width:82%;
+      font-size: 15px;
+    }
+    @media screen and (max-width:343px){
+      width:81%;
+    }
+    @media screen and (max-width:328px){
+      width:80.25%;
     }
   }
   button {
@@ -99,6 +137,7 @@ html, body {
     margin: 0px;
     height: 50px;
     margin-left: 4px;
+
     #bg {
       fill: $gray;
       transition: all 0.5s ease;
@@ -113,10 +152,11 @@ html, body {
       }
     }
     @media (max-width: $small) {
-      position: absolute;
-      z-index: 9999px;
-      top: 50px;
-      right: 10px;
+      // position: absolute;
+      // z-index: 9999px;
+      // top: 50px;
+      // right: 10px;
+      float:right;
     }
   }
   .social {
