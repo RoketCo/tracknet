@@ -918,6 +918,10 @@ html, body {
       @media screen and (max-width: 992px) {
         .pre-order .orders-wrap .pre-order-text p {
           padding-bottom: 0px; } }
+    .pre-order .orders-wrap .pre-order-text .pbreak {
+      margin-bottom: 30px !important;
+      padding-bottom: 0px !important;
+      padding-top: 0px !important; }
     .pre-order .orders-wrap .security-text p {
       max-width: 491px;
       margin-bottom: 57px; }
