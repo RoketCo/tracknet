@@ -3,8 +3,7 @@ a, button {
 
 .outer-container {
   max-width: 1600px;
-  margin: 0 auto;
-  padding-top: 40px; }
+  margin: 0 auto; }
 
 .inner-container {
   max-width: 1280px;
