@@ -240,30 +240,30 @@ html, body {
 // 3. Hero
 .hero {
   height: 810px;
-  background: url('../img/hero-l.jpg');
+  background: url('http://tabsio.s3.amazonaws.com/github/hero-l.jpg');
   background-position: center center;
   background-size: cover;
   display: block;
   float: left;
   width: 100%;
   @media (max-width: $large) {
-    background: url('../img/hero-l.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-l.jpg');
     height: 610px;
     background-position: center center;
     background-size: cover;
   }
   @media (max-width: $medium) {
-    background: url('../img/hero-m.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-m.jpg');
     background-position: center center;
     background-size: cover;
   }
   @media (max-width: $small) {
-    background: url('../img/hero-s.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-s.jpg');
     background-position: center center;
     background-size: cover;
   }
   @media (max-width: $xsmall) {
-    background: url('../img/hero-xs.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-xs.jpg');
     background-position: center center;
     background-size: cover;
   }
@@ -350,30 +350,30 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url('../img/product-group-l.jpg');
+  background: url('http://tabsio.s3.amazonaws.com/github/product-group-l.jpg');
   background-position: center bottom;
   background-size: cover;
   padding-top: 40px;
   height: 670px;
   border-top: 10px solid white;
   @media (max-width: $large) {
-    background: url('../img/product-group-l.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-l.jpg');
     background-position: center bottom;
     background-size: cover;
     height: 610px;
   }
   @media (max-width: $medium) {
-    background: url('../img/product-group-m.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-m.jpg');
     background-position: center bottom;
     background-size: cover;
   }
   @media (max-width: $small) {
-    background: url('../img/product-group-s.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-s.jpg');
     background-position: center bottom;
     background-size: cover;
   }
   @media (max-width: $xsmall) {
-    background: url('../img/product-group-xs.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-xs.jpg');
     background-position: center bottom;
     background-size: cover;
   }
@@ -434,29 +434,29 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url('../img/locate-l.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/locate-l.jpg');
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px;
     @media (max-width: $large) {
-      background: url('../img/locate-l.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/locate-l.jpg');
       background-position: center center;
       background-size: cover;
       height: 610px;
     }
     @media (max-width: $medium) {
-      background: url('../img/locate-m.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/locate-m.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $small) {
-      background: url('../img/locate-s.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/locate-s.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $xsmall) {
-      background: url('../img/locate-xs.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/locate-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 1000px;
@@ -536,29 +536,29 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url('../img/secure-l.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/secure-l.jpg');
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px;
     @media (max-width: $large) {
-      background: url('../img/secure-l.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/secure-l.jpg');
       background-position: center center;
       background-size: cover;
       height: 610px;
     }
     @media (max-width: $medium) {
-      background: url('../img/secure-m.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/secure-m.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $small) {
-      background: url('../img/secure-s.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/secure-s.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $xsmall) {
-      background: url('../img/secure-xs.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/secure-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 1000px;
@@ -638,29 +638,29 @@ html, body {
     display: block;
     float: left;
     width: 100%;
-    background: url('../img/monitor-l.jpg');
+    background: url('http://tabsio.s3.amazonaws.com/github/monitor-l.jpg');
     background-position: center center;
     background-size: cover;
     height: 670px;
     border-radius: 10px;
     @media (max-width: $large) {
-      background: url('../img/monitor-l.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/monitor-l.jpg');
       background-position: center center;
       background-size: cover;
       height: 610px;
     }
     @media (max-width: $medium) {
-      background: url('../img/monitor-m.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/monitor-m.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $small) {
-      background: url('../img/monitor-s.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/monitor-s.jpg');
       background-position: center center;
       background-size: cover;
     }
     @media (max-width: $xsmall) {
-      background: url('../img/monitor-xs.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/monitor-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 1000px;
@@ -701,7 +701,7 @@ html, body {
   display: block;
   float: left;
   width: 100%;
-  background: url('../img/hub-l.jpg');
+  background: url('http://tabsio.s3.amazonaws.com/github/hub-l.jpg');
   background-position: center center;
   background-size: cover;
   height: auto;
@@ -803,7 +803,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url('../img/hub-m.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/hub-m.jpg');
       background-position: center center;
       background-size: cover;
       height: 560px;
@@ -812,7 +812,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url('../img/hub-s.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/hub-s.jpg');
       background-position: center center;
       background-size: cover;
       height: 560px;
@@ -821,7 +821,7 @@ html, body {
       display: block;
       float: left;
       width: 100%;
-      background: url('../img/hub-xs.jpg');
+      background: url('http://tabsio.s3.amazonaws.com/github/hub-xs.jpg');
       background-position: center center;
       background-size: cover;
       height: 560px;
