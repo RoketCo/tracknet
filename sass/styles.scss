@@ -838,7 +838,7 @@ html, body {
   padding: 40px;
   background-color: $lightgray;
   .container {
-    width: 675px;
+    width: 410px;
     margin: 0 auto;
     @media (max-width: $medium) {
       width: 100%;
@@ -860,7 +860,6 @@ html, body {
   .ifttt {
     width: 185px;
     float: left;
-    margin-right: 30px;
     @media (max-width: $medium) {
       text-align: center;
       display: block;

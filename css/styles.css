@@ -676,7 +676,7 @@ html, body {
   padding: 40px;
   background-color: #F4F4F4; }
   .integrates .container {
-    width: 675px;
+    width: 410px;
     margin: 0 auto; }
     @media (max-width: 992px) {
       .integrates .container {
@@ -695,8 +695,7 @@ html, body {
         text-align: center; } }
   .integrates .ifttt {
     width: 185px;
-    float: left;
-    margin-right: 30px; }
+    float: left; }
     @media (max-width: 992px) {
       .integrates .ifttt {
         text-align: center;
