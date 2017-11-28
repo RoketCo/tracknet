@@ -19,18 +19,18 @@ html, body {
 .navigation {
   padding: 16px;
   display: block;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: white;
   float: left;
   width: 100%;
-  max-width: 1600px; }
-  @media (max-width: 768px) {
+  max-width: 1600px;
+  z-index: 9999; }
+  @media (max-width: 992px) {
     .navigation {
-      height: 70px;
-      padding: 10px; } }
+      padding: 12px; } }
   .navigation form {
     display: block;
     float: left;
-    padding-left: 70px; }
+    padding-left: 35px; }
     @media (max-width: 992px) {
       .navigation form {
         padding-left: 0px; } }
@@ -42,7 +42,7 @@ html, body {
     border: 0px;
     border-radius: 5px;
     height: 50px;
-    width: 320px;
+    width: 230px;
     padding-left: 20px;
     outline: none;
     transition: all 0.5s ease;
@@ -102,20 +102,53 @@ html, body {
     height: 50px;
     margin-left: 4px; }
     .navigation button #bg {
-      fill: #8B8B8B;
+      fill: #00A2BA;
       transition: all 0.5s ease; }
     .navigation button:hover #bg {
-      fill: #585858;
+      fill: #008ca1;
       transition: all 0.5s ease; }
     .navigation button:hover #Arrow-Right {
       fill: white; }
     @media (max-width: 768px) {
       .navigation button {
         float: right; } }
+  .navigation .toast {
+    float: left;
+    margin-top: 5px;
+    padding-left: 70px; }
+    @media screen and (max-width: 1100px) {
+      .navigation .toast {
+        padding-left: 0px; } }
+    @media screen and (max-width: 992px) {
+      .navigation .toast {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px; } }
+    @media screen and (max-width: 768px) {
+      .navigation .toast {
+        text-align: center; } }
+    .navigation .toast h4 {
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #00A2BA;
+      margin: 0px;
+      padding: 0px; }
+      @media screen and (max-width: 992px) {
+        .navigation .toast h4 {
+          font-size: 16px; } }
+    .navigation .toast p {
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #00A2BA;
+      margin: 0px;
+      padding: 0px; }
   .navigation .social {
     float: right;
-    padding-right: 70px; }
-    @media (max-width: 992px) {
+    padding-right: 70px;
+    margin-top: 7px; }
+    @media (max-width: 1100px) {
       .navigation .social {
         padding-right: 0px; } }
     @media (max-width: 768px) {
@@ -157,6 +190,15 @@ html, body {
       .navigation .social .icons .email:hover svg #bg {
         transition: all 0.5s ease;
         fill: #585858; }
+
+.navigation-fixed {
+  position: fixed; }
+
+.fixed-adjustment {
+  margin-top: 84px; }
+  @media screen and (max-width: 992px) {
+    .fixed-adjustment {
+      margin-top: 128px; } }
 
 .hero {
   height: 810px;
@@ -202,7 +244,7 @@ html, body {
         margin: 0 auto;
         position: relative;
         left: 0;
-        top: 90px; } }
+        top: 140px; } }
   .hero .content-container {
     height: 810px; }
     @media (max-width: 1280px) {
@@ -217,7 +259,7 @@ html, body {
       margin: 0 auto; }
       @media (max-width: 992px) {
         .hero .content-container .content {
-          margin-top: 40px; } }
+          margin-top: 60px; } }
       .hero .content-container .content h1 {
         margin: 0px;
         padding: 0px;

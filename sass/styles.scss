@@ -49,18 +49,18 @@ html, body {
 .navigation {
   padding: 16px;
   display: block;
-  background-color: rgba(255,255,255,.4);
+  background-color: rgba(255,255,255,1);
   float: left;
   width: 100%;
   max-width: 1600px;
-  @media (max-width: $small) {
-    height: 70px;
-    padding: 10px;
+  z-index: 9999;
+  @media (max-width: 992px) {
+    padding: 12px;
   }
   form {
     display: block;
     float: left;
-    padding-left: 70px;
+    padding-left: 35px;
     @media (max-width: $medium) {
       padding-left: 0px;
     }
@@ -73,7 +73,7 @@ html, body {
     border: 0px;
     border-radius: 5px;
     height: 50px;
-    width: 320px;
+    width: 230px;
     padding-left: 20px;
     outline: none;
     transition: all 0.5s ease;
@@ -138,12 +138,12 @@ html, body {
     margin-left: 4px;
 
     #bg {
-      fill: $gray;
+      fill: $brand-blue;
       transition: all 0.5s ease;
     }
     &:hover {
       #bg {
-        fill: $darkgray;
+        fill: darken($brand-blue, 5%);
         transition: all 0.5s ease;
       }
       #Arrow-Right {
@@ -158,10 +158,46 @@ html, body {
       float:right;
     }
   }
+  .toast {
+    float: left;
+    margin-top: 5px;
+    padding-left: 70px;
+    @media screen and (max-width:1100px){
+      padding-left: 0px;
+    }
+    @media screen and (max-width:992px){
+      display: block;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    @media screen and (max-width:768px){
+      text-align: center;
+    }
+    h4 {
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: $brand-blue;
+      margin: 0px;
+      padding: 0px;
+      @media screen and (max-width:992px){
+        font-size: 16px;
+      }
+    }
+    p {
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: $brand-blue;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
   .social {
     float: right;
     padding-right: 70px;
-    @media (max-width: $medium) {
+    margin-top: 7px;
+    @media (max-width: 1100px) {
       padding-right: 0px;
     }
     @media (max-width: $small) {
@@ -237,6 +273,17 @@ html, body {
   }
 }
 
+// 2. Navigation Helpers
+.navigation-fixed {
+  position: fixed;
+}
+.fixed-adjustment {
+  margin-top: 84px;
+  @media screen and (max-width:992px){
+    margin-top: 128px;
+  }
+}
+
 // 3. Hero
 .hero {
   height: 810px;
@@ -282,7 +329,7 @@ html, body {
       margin: 0 auto;
       position: relative;
       left: 0;
-      top: 90px;
+      top: 140px;
     }
   }
   .content-container {
@@ -298,7 +345,7 @@ html, body {
       max-width: 468px;
       margin: 0 auto;
       @media (max-width: $medium) {
-        margin-top: 40px;
+        margin-top: 60px;
       }
       h1 {
         margin: 0px;
