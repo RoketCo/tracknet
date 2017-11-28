@@ -200,6 +200,12 @@ html, body {
     .fixed-adjustment {
       margin-top: 128px; } }
 
+.fixed-adjustment-swisscom {
+  margin-top: 40px; }
+  @media screen and (max-width: 992px) {
+    .fixed-adjustment-swisscom {
+      margin-top: 40px; } }
+
 .hero {
   height: 810px;
   background: url("http://tabsio.s3.amazonaws.com/github/hero-l.jpg");
@@ -245,6 +251,22 @@ html, body {
         position: relative;
         left: 0;
         top: 140px; } }
+  .hero .logo-swisscom {
+    top: 50px;
+    left: 100px;
+    height: 0px;
+    position: relative; }
+    .hero .logo-swisscom .track-logo {
+      fill: white;
+      width: 57px;
+      height: 95px; }
+    @media (max-width: 992px) {
+      .hero .logo-swisscom {
+        width: 57px;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: 90px; } }
   .hero .content-container {
     height: 810px; }
     @media (max-width: 1280px) {
@@ -884,7 +906,28 @@ html, body {
   height: auto;
   clear: both;
   float: none;
-  padding-top: 40px; }
+  padding-top: 20px; }
+  .pre-order .header {
+    padding: 50px 80px 50px 80px; }
+    @media screen and (max-width: 1160px) {
+      .pre-order .header {
+        padding: 60px 40px 0px 40px; } }
+  @media screen and (max-width: 992px) {
+    .pre-order .content {
+      padding: 10px 40px 20px 40px; } }
+  .pre-order .price {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #00A2BA;
+    margin-bottom: 20px;
+    display: block; }
+  .pre-order .shipping {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #9B9B9B;
+    margin-left: 10px; }
   .pre-order a:active, .pre-order a:visited, .pre-order a:focus {
     color: #fff !important; }
   .pre-order .custom-padding {
@@ -902,17 +945,14 @@ html, body {
     margin-top: 0px; }
     @media screen and (max-width: 1160px) {
       .pre-order h3 {
-        padding: 40px 30px 0px 30px; } }
+        padding: 0px; } }
   .pre-order p {
     font-size: 22px;
     line-height: 28px;
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 300;
     color: #414042;
-    max-width: 858px; }
-    @media screen and (max-width: 1160px) {
-      .pre-order p {
-        padding: 10px 30px 50px 30px; } }
+    max-width: 875px; }
   .pre-order .image-wrap {
     position: relative; }
     .pre-order .image-wrap img {
@@ -930,7 +970,7 @@ html, body {
       .pre-order .image-wrap:hover .overlay {
         background-color: rgba(216, 216, 216, 0.5); }
   .pre-order .orders-wrap {
-    margin-top: 10px;
+    margin-top: 30px;
     clear: both;
     float: none;
     display: inline-block;
@@ -940,18 +980,18 @@ html, body {
       line-height: 31px;
       font-family: 'Proxima Nova', Georgia, sans-serif;
       color: #414042;
-      text-align: center;
-      margin-bottom: 26px;
+      text-align: left;
+      margin-bottom: 4px;
       margin-top: 15px;
       font-weight: normal;
-      letter-spacing: -0.63px; }
+      letter-spacing: -0.63px;
+      max-width: 80%; }
     .pre-order .orders-wrap .pre-order-text p {
       color: #414042;
       font-family: 'Proxima Nova', Georgia, sans-serif;
-      text-align: center;
+      text-align: left;
       font-size: 18px;
       line-height: 26px;
-      max-width: 476px;
       margin: 0px auto; }
       .pre-order .orders-wrap .pre-order-text p br {
         line-height: 53px; }
@@ -963,11 +1003,8 @@ html, body {
       padding-bottom: 0px !important;
       padding-top: 0px !important; }
     .pre-order .orders-wrap .security-text p {
-      max-width: 491px;
-      margin-bottom: 57px; }
-      @media screen and (max-width: 992px) {
-        .pre-order .orders-wrap .security-text p {
-          margin-bottom: 0px; } }
+      margin-bottom: 20px;
+      padding-right: 40px; }
     .pre-order .orders-wrap .pre-order-btn button {
       background: #00A2BA;
       border-radius: 5px;
@@ -980,11 +1017,14 @@ html, body {
       text-align: center;
       padding: 15px 25px;
       display: block;
-      margin: 55px auto 0px auto;
-      letter-spacing: -0.53px; }
+      letter-spacing: -0.53px;
+      min-width: 280px;
+      margin-top: 30px;
+      display: block; }
       @media screen and (max-width: 993px) {
         .pre-order .orders-wrap .pre-order-btn button {
-          margin-top: 29px; } }
+          margin-top: 29px;
+          width: 100%; } }
       .pre-order .orders-wrap .pre-order-btn button:hover, .pre-order .orders-wrap .pre-order-btn button:active {
         background-color: #007687; }
     .pre-order .orders-wrap .pre-order-btn p {

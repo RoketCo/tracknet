@@ -283,6 +283,12 @@ html, body {
     margin-top: 128px;
   }
 }
+.fixed-adjustment-swisscom {
+  margin-top: 40px;
+  @media screen and (max-width:992px){
+    margin-top: 40px;
+  }
+}
 
 // 3. Hero
 .hero {
@@ -330,6 +336,24 @@ html, body {
       position: relative;
       left: 0;
       top: 140px;
+    }
+  }
+  .logo-swisscom {
+    top: 50px;
+    left: 100px;
+    height: 0px;
+    position: relative;
+    .track-logo {
+      fill: white;
+      width: 57px;
+      height: 95px;
+    }
+    @media (max-width: $medium) {
+      width: 57px;
+      margin: 0 auto;
+      position: relative;
+      left: 0;
+      top: 90px;
     }
   }
   .content-container {
@@ -1087,7 +1111,33 @@ text-decoration: none !important;
   height:auto;
   clear: both;
   float: none;
-  padding-top:40px;
+  padding-top:20px;
+  .header {
+    padding: 50px 80px 50px 80px;
+    @media screen and (max-width:1160px){
+      padding: 60px 40px 0px 40px;
+    }
+  }
+  .content {
+    @media screen and (max-width:992px){
+      padding: 10px 40px 20px 40px;
+    }
+  }
+  .price {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: $brand-blue;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .shipping {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #9B9B9B;
+    margin-left: 10px;
+  }
   a{
     &:active,&:visited,&:focus{
       color:#fff !important;
@@ -1108,7 +1158,7 @@ text-decoration: none !important;
     letter-spacing: -3.02px;
     margin-top: 0px;
     @media screen and (max-width: 1160px){
-      padding: 40px 30px 0px 30px;
+      padding: 0px;
     }
   }
   p {
@@ -1117,11 +1167,11 @@ text-decoration: none !important;
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 300;
     color: #414042;
-    max-width: 858px;
+    max-width: 875px;
     // letter-spacing: -0.53px;
     // margin: 0 auto;
     @media screen and (max-width: 1160px){
-      padding: 10px 30px 50px 30px;
+      // padding: 10px 30px 50px 30px;
     }
   }
   .image-wrap{
@@ -1147,7 +1197,7 @@ text-decoration: none !important;
     }
   }
   .orders-wrap{
-    margin-top: 10px;
+    margin-top: 30px;
     clear: both;
     float: none;
     display: inline-block;
@@ -1158,19 +1208,19 @@ text-decoration: none !important;
         line-height: 31px;
         font-family: 'Proxima Nova', Georgia, sans-serif;
         color:#414042;
-        text-align: center;
-        margin-bottom:26px;
+        text-align: left;
+        margin-bottom:4px;
         margin-top:15px;
         font-weight: normal;
         letter-spacing: -0.63px;
+        max-width: 80%;
       }
       p{
         color:#414042;
         font-family: 'Proxima Nova', Georgia, sans-serif;
-        text-align: center;
+        text-align: left;
         font-size: 18px;
         line-height: 26px;
-        max-width: 476px;
         margin: 0px auto;
         // letter-spacing: -0.85px;
         br{
@@ -1187,9 +1237,10 @@ text-decoration: none !important;
       }
     }
     .security-text{
-      p{max-width: 491px; margin-bottom: 57px;
+      p {
+        margin-bottom: 20px;
+        padding-right: 40px;
         @media screen and (max-width:$medium){
-          margin-bottom: 0px;
         }
       }
     }
@@ -1206,10 +1257,13 @@ text-decoration: none !important;
         text-align: center;
         padding: 15px 25px;
         display: block;
-        margin:55px auto 0px auto;
         letter-spacing: -0.53px;
+        min-width: 280px;
+        margin-top: 30px;
+        display: block;
         @media screen and (max-width:993px){
           margin-top:29px;
+          width: 100%;
         }
         &:hover,&:active{
           background-color:darken($brand-blue,10%);
