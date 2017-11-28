@@ -877,7 +877,8 @@ html, body {
   transition: all .5s ease;
   position: fixed;
   width: 100%;
-  z-index: 1000; }
+  z-index: 1000;
+  max-width: 1600px; }
   .pre-order-top span {
     text-decoration: underline !important; }
   .pre-order-top:hover, .pre-order-top:active {
