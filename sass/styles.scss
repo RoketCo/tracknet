@@ -416,6 +416,37 @@ html, body {
   }
 }
 
+body.swisscom .hero {
+  height: 810px;
+  background: url('http://tabsio.s3.amazonaws.com/github/hero-swiss-l.jpg');
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  float: left;
+  width: 100%;
+  @media (max-width: $large) {
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-swiss-l.jpg');
+    height: 610px;
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $medium) {
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-swiss-m.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $small) {
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-swiss-s.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $xsmall) {
+    background: url('http://tabsio.s3.amazonaws.com/github/hero-swiss-xs.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
 // 4. Product Group
 .product-group {
   display: block;
@@ -457,6 +488,39 @@ html, body {
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-weight: 300;
     line-height: 36px;
+  }
+}
+
+body.swisscom .product-group {
+  display: block;
+  float: left;
+  width: 100%;
+  background: url('http://tabsio.s3.amazonaws.com/github/product-group-swiss-l.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  padding-top: 40px;
+  height: 670px;
+  border-top: 10px solid white;
+  @media (max-width: $large) {
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-swiss-l.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    height: 610px;
+  }
+  @media (max-width: $medium) {
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-swiss-m.jpg');
+    background-position: center bottom;
+    background-size: cover;
+  }
+  @media (max-width: $small) {
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-swiss-s.jpg');
+    background-position: center bottom;
+    background-size: cover;
+  }
+  @media (max-width: $xsmall) {
+    background: url('http://tabsio.s3.amazonaws.com/github/product-group-swiss-xs.jpg');
+    background-position: center bottom;
+    background-size: cover;
   }
 }
 
@@ -562,6 +626,38 @@ html, body {
   }
 }
 
+body.swisscom .locate .product {
+  display: block;
+  float: left;
+  width: 100%;
+  background: url('http://tabsio.s3.amazonaws.com/github/locate-swiss-l.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 670px;
+  border-radius: 10px;
+  @media (max-width: $large) {
+    background: url('http://tabsio.s3.amazonaws.com/github/locate-swiss-l.jpg');
+    height: 610px;
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $medium) {
+    background: url('http://tabsio.s3.amazonaws.com/github/locate-swiss-m.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $small) {
+    background: url('http://tabsio.s3.amazonaws.com/github/locate-swiss-s.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $xsmall) {
+    background: url('http://tabsio.s3.amazonaws.com/github/locate-swiss-xs.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
 // 6. Secure
 
 .secure {
@@ -661,6 +757,39 @@ html, body {
         margin-bottom: 30px;
       }
     }
+  }
+}
+
+body.swisscom .secure .product {
+  display: block;
+  float: left;
+  width: 100%;
+  background: url('http://tabsio.s3.amazonaws.com/github/secure-swiss-l.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 670px;
+  border-radius: 10px;
+  @media (max-width: $large) {
+    background: url('http://tabsio.s3.amazonaws.com/github/secure-swiss-l.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 610px;
+  }
+  @media (max-width: $medium) {
+    background: url('http://tabsio.s3.amazonaws.com/github/secure-swiss-m.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $small) {
+    background: url('http://tabsio.s3.amazonaws.com/github/secure-swiss-s.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  @media (max-width: $xsmall) {
+    background: url('http://tabsio.s3.amazonaws.com/github/secure-swiss-xs.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 1000px;
   }
 }
 
@@ -908,6 +1037,57 @@ html, body {
   width: 100%;
   padding: 40px;
   background-color: $lightgray;
+  .container {
+    width: 410px;
+    margin: 0 auto;
+    @media (max-width: $medium) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  h3 {
+    float: left;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-weight: 400;
+    margin: 10px 30px 10px 0px;
+    @media (max-width: $medium) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .ifttt {
+    width: 185px;
+    float: left;
+    @media (max-width: $medium) {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      float: none;
+      padding: 10px;
+    }
+  }
+  .alexa {
+    width: 231px;
+    float: left;
+    @media (max-width: $medium) {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      float: none;
+      padding: 10px;
+    }
+  }
+}
+
+.integrates-swisscom {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0px;
+  background-color: $lightgray;
+  height: 1px;
   .container {
     width: 410px;
     margin: 0 auto;
@@ -1242,6 +1422,22 @@ text-decoration: none !important;
         margin-bottom: 20px;
         padding-right: 40px;
         @media screen and (max-width:$medium){
+        }
+        a {
+          color: $brand-blue !important;
+          font-weight: 500;
+          &:visited {
+            color: $brand-blue !important;
+          }
+          &:hover {
+            color: $brand-blue !important;
+          }
+          &:active {
+            color: $brand-blue !important;
+          }
+          &:focus {
+            color: $brand-blue !important;
+          }
         }
       }
     }
