@@ -250,7 +250,14 @@ html, body {
         margin: 0 auto;
         position: relative;
         left: 0;
-        top: 140px; } }
+        top: 100px; } }
+    @media (max-width: 768px) {
+      .hero .logo {
+        width: 57px;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: 110px; } }
   .hero .logo-swisscom {
     top: 50px;
     left: 100px;
@@ -277,11 +284,11 @@ html, body {
       top: 50%;
       transform: translateY(-50%);
       padding: 20px;
-      max-width: 468px;
+      max-width: 500px;
       margin: 0 auto; }
       @media (max-width: 992px) {
         .hero .content-container .content {
-          margin-top: 60px; } }
+          margin-top: 80px; } }
       .hero .content-container .content h1 {
         margin: 0px;
         padding: 0px;
@@ -307,7 +314,20 @@ html, body {
         font-family: 'Proxima Nova', Georgia, sans-serif;
         font-weight: 300;
         color: white;
-        margin-top: 10px; }
+        margin-top: 10px;
+        margin-bottom: 30px; }
+      .hero .content-container .content h4 {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 31px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        font-weight: 600;
+        color: white;
+        margin-top: 0px; }
+      .hero .content-container .content .blue {
+        color: #00A2BA; }
       .hero .content-container .content svg.keeptabs {
         text-align: center;
         margin: 0 auto;
